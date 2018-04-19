@@ -1,0 +1,26 @@
+#LogisticsDetails { background: #f4f4f4; }
+#LogisticsDetails .goods { display: block; box-sizing: border-box; min-height: 10rem; padding: 1rem; background-color: white; }
+#LogisticsDetails .goods .goods-cover { display: inline-block; overflow: hidden; width: 5.5rem; height: 5.5rem; border-radius: .5rem; }
+#LogisticsDetails .goods .goods-cover > img { width: 100%; height: 100%; }
+#LogisticsDetails .goods .company { display: inline-block; box-sizing: border-box; width: calc(100% - 6.5rem); padding-left: .5rem; vertical-align: top; }
+#LogisticsDetails .goods .company-name { font-size: 1.5rem; font-weight: 500; margin-bottom: 1rem; color: #ff4242; }
+#LogisticsDetails .goods .company .company-info li { font-size: 1.2rem; margin-bottom: .5rem; color: #cccccc; }
+#LogisticsDetails .goos-compInfo { box-sizing: border-box; margin-top: 1rem; padding: 1rem; background-color: white; }
+#LogisticsDetails .goos-compInfo label { font-size: 1.2875rem; font-weight: 500; color: #333; }
+#LogisticsDetails .goos-compInfo .items { box-sizing: border-box; padding: 1rem; }
+#LogisticsDetails .goos-compInfo .items .address { margin-bottom: 1.75rem; }
+#LogisticsDetails .goos-compInfo .items .address span { font-size: 1.2875rem; letter-spacing: 1px; font-weight: 400; }
+#LogisticsDetails .goos-compInfo .items .item { padding: .75rem 0 0; }
+#LogisticsDetails .goos-compInfo .items .address .icon,
+#LogisticsDetails .goos-compInfo .items .item .icon { font-size: 1.75rem; width: 1.2875rem; margin-right: .75rem; vertical-align: top; }
+#LogisticsDetails .goos-compInfo .items .item .icon.active { background-color: #fc0; box-shadow: 0 0 1rem #fc0; }
+#LogisticsDetails .goos-compInfo .items .item .icon.active:after { content: ''; display: block; width: 100%; height: 100%; border: 1px solid #ffeb99; border-radius: 50%; position: absolute; left: -7.5%; top: -7.5%; -webkit-transform: scale(1.2, 1.2); -ms-transform: scale(1.2, 1.2); -o-transform: scale(1.2, 1.2); transform: scale(1.2, 1.2);} #LogisticsDetails .goos-compInfo .items .item span.active { color: #00b94a; }
+#LogisticsDetails .goos-compInfo .items .item .icon { position: absolute; display: inline-block; height: 1.287rem; -webkit-transform: scale(.8, .8); -ms-transform: scale(.8, .8); -o-transform: scale(.8, .8); transform: scale(.8, .8); border-radius: 50%; background-color: #d8d8d8; }
+#LogisticsDetails .goos-compInfo .items .item:after { display: block; clear: both; content: ''; }
+#LogisticsDetails .goos-compInfo .items .item span ~ span { margin-top: 1.25rem; padding-bottom: .7rem; border-bottom: 1px solid #e5e5e5; }
+#LogisticsDetails .goos-compInfo .items .item span { font-size: 1.2rem; line-height: 1.65rem; font-weight: 300; display: block; float: left; margin-left: 30px; letter-spacing: .25px; width: calc(100% - 30px); box-sizing: border-box; }
+#LogisticsDetails .error-box { position: fixed; top: 50%; right: 8rem; left: 8rem; height: 36rem; margin-top: -22rem; text-align: center; }
+#LogisticsDetails .error-box .error-icon { margin-bottom: 1.5rem; margin-left: 1rem; }
+#LogisticsDetails .error-box .error-icon img { width: 90%; height: auto; min-height: 90%; }
+#LogisticsDetails .error-box .error-help { font-family: '宋体'; font-size: 1.35rem; line-height: 2rem; margin: 0 -3.5rem; text-align: left; text-indent: 2em; color: #333; }
+#LogisticsDetails .goHome { margin-top: 15px; text-align: center; text-indent: 0; }

@@ -1,0 +1,59 @@
+.row {
+	margin: 0 !important;
+}
+.operate {
+	margin: 10px 0 20px 0;
+}
+.ml10 {
+	margin-left: 10px;
+}
+.ta-right {
+	text-align: right;
+}
+.ta-center {
+	text-align: center;
+}
+.text-red {
+	color: #F3565D;
+}
+.el-upload__input {
+	display: none !important;
+}
+
+.luckDraw .el-upload--picture-card,
+.luckDraw .el-upload-list,
+.floorEdit .el-upload--picture-card,
+.floorEdit .el-upload-list,
+.channel .el-upload--picture-card,
+.channel .el-upload-list,
+.classify .el-upload-list,
+.classify .el-upload--picture-card,
+.activity .el-upload-list ,
+.activity .el-upload--picture-card,
+.help .el-upload-list ,
+.help .el-upload--picture-card {
+	width: 50px;
+	height: 50px;
+	line-height: 55px;
+}
+.luckDraw .el-upload-list li,
+.floorEdit .el-upload-list li,
+.channel .el-upload-list li,
+.classify .el-upload-list li,
+.activity .el-upload-list li,
+.help .el-upload-list li {
+	width: 100%;
+	height: 100%;
+}
+.el-radio-group {
+	padding: 10px 0;
+}
+.el-input__inner {
+	height: 34px !important;
+	vertical-align: middle;
+}
+/* 饿了么分页 */
+.el-pagination {
+	margin: 20px auto;
+	text-align: center;
+}

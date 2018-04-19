@@ -1,0 +1,58 @@
+.more { font-size: 1.4rem; line-height: 2.0rem; padding: 1rem 0; text-align: center; color: #666; }
+#myUpgrade { width: 100%; background-color: #f4f4f4; }
+#myUpgrade * { box-sizing: border-box; }
+#myUpgrade .dataList { width: 100%; }
+#myUpgrade .dataList:after { display: block; clear: both; content: ''; }
+#myUpgrade .items { float: left; width: 100%; margin-bottom: 1.35rem; padding: 0 1.35rem; background-color: white; }
+#myUpgrade .items .header { width: 100%; border-bottom: 1px solid #e5e5e5; }
+#myUpgrade .items .header span { font-size: 1.25rem; line-height: 4rem; display: inline-block; height: 4rem; color: #999; }
+#myUpgrade .items .header span.time { width: auto; }
+#myUpgrade .items .header span.state { float: right; }
+#myUpgrade .items .content { margin: 1.35rem 0; }
+#myUpgrade .items .content .cover { display: inline-block; float: left; overflow: hidden; width: 8rem; height: 8rem; vertical-align: top; border-radius: 1rem; }
+#myUpgrade .items .content .cover img { width: 100%; height: auto; }
+#myUpgrade .items .content .desc { display: inline-block; float: left; width: calc(100% - 8rem); padding-left: 1.35rem; vertical-align: top; }
+#myUpgrade .items .content .desc .line { display: block; width: 100%; }
+#myUpgrade .items .content:after,
+#myUpgrade .items .content .desc .line:after { content: ''; display: block; clear: both; }
+#myUpgrade .items .content .desc .goods-name { display: inline-block; float: left; width: 60%; height: 6rem; }
+#myUpgrade .items .content .desc .goods-name span { font-size: 1.435rem; line-height: 2rem; display: -webkit-box; overflow: hidden; color: #333; -webkit-box-orient: vertical; -webkit-line-clamp: 2; margin-bottom: .25rem; }
+#myUpgrade .items .content .desc .goods-name span.tag-label { display: inline-block; background-color: #d5282e; padding: 0 .25rem; border-radius: .15rem; color: white; font-size: 1rem; height: auto; line-height: 1.8rem; }
+#myUpgrade .items .content .desc .state-box { display: inline-block; float: left; width: 40%; text-align: right; }
+#myUpgrade .items .content .desc .state-box span { font-size: 1.35rem; line-height: 2rem; display: block; }
+#myUpgrade .items .content .desc .state-box span.state { color: #d4282d; }
+#myUpgrade .items .content .desc .state-box span.result { color: #333; }
+#myUpgrade .items .content .desc .line.min-line { line-height: 2rem; height: 2rem; margin-top: .75rem; }
+#myUpgrade .items .content .desc .line.min-line span { font-size: 1.05rem; color: #999; }
+#myUpgrade .items .content .desc .line.min-line span.price { font-size: 1.05rem; color: #333; }
+#myUpgrade .items .content .desc .line.min-line span.number { float: right; }
+#myUpgrade .items .footer { padding: 1.35rem 0; border-top: 1px solid #e5e5e5; }
+#myUpgrade .items .footer .payprice,
+#myUpgrade .items .footer .sys-box { line-height: 2.8rem; display: inline-block; height: 2.8rem; }
+#myUpgrade .items .footer .payprice span { font-size: 1.3rem; font-weight: 500; color: #333; }
+#myUpgrade .items .footer .sys-box { float: right; }
+#myUpgrade .items .footer .sys { font-size: 1.2rem; line-height: 3rem; display: inline-block; width: 5.2rem; height: 3rem; text-align: center; color: white; border-radius: .15rem; background-color: #b8b8b8; }
+#myUpgrade .items .footer .sys.small { width: 7rem; }
+#myUpgrade .items .footer .sys ~ .sys { margin-left: .5rem; }
+#myUpgrade .items .footer .sys.active { background-color: #d5282e; }
+#myUpgrade .error-box { position: fixed; top: 70%; right: 8rem; left: 8rem; height: 36rem; margin-top: -22rem; text-align: center; }
+#myUpgrade .error-box .error-icon { margin-bottom: 1rem; margin-left: 1rem; }
+#myUpgrade .error-box .error-icon img { width: 90%; height: auto; min-height: 90%; }
+#myUpgrade .error-box .error-help { font-size: 1.35rem; line-height: 1.8rem; margin-bottom: 2rem; text-align: center; color: #666; }
+#myUpgrade .error-box .goshopping .goBtn { font-size: 1.2875rem; line-height: 3.75rem; display: block; box-sizing: border-box; width: 9.5rem; height: 3.75rem; margin: 0 auto; text-align: center; color: #333; border: 1px solid #999; border-radius: .25rem; }
+.goods-default-skin .mint-popup { width: 76%; background-color: white; padding: 1.5rem; border-radius: .75rem; height: auto; min-height: auto; }
+.goods-default-skin .mint-popup * { font-family: Microsoft YaHei; }
+.goods-default-skin .model-header { text-align: center; margin-top: .5rem; }
+.goods-default-skin .model-header span { font-size: 1.75rem; font-weight: 500; color: #333333; }
+.goods-default-skin .model-content { width: auto; margin: 1.25rem auto 0; }
+.goods-default-skin .model-content .content { text-align: center; font-size: 1.45rem; color: #333333; margin-top: 2rem; margin-bottom: 3rem; }
+.goods-default-skin .model-content .content ~ .content { margin-top: 1rem; }
+.goods-default-skin .model-content.samll { max-width: 60%; }
+.goods-default-skin .model-content.samll .content { text-align: left; }
+.goods-default-skin .model-footer { margin-top: 2rem; }
+.goods-default-skin .model-footer a.btn { font-size: 1.35rem; height: 3rem; line-height: 3rem; text-align: center; border-radius: .35rem; display: inline-block; color: white; background-color: #b8b8b8; width: 48%; }
+.goods-default-skin .model-footer a.btn ~ a.btn { float: right; }
+.goods-default-skin .model-footer a.btn.big { width: 100%; }
+.goods-default-skin .model-footer a.btn.active { background-color: #d5282e; }
+
+

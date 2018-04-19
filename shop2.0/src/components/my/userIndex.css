@@ -1,0 +1,69 @@
+#YSF-BTN-HOLDER { display: none; }
+/*.MyUser { position: relative; z-index: 0; width: 100%; padding-top: 0px; background: #f5f5f5; padding-bottom: 4.9rem;}*/
+.MyUser { margin-bottom: 7rem; background: #f5f5f5; }
+.MyUser > .headerBg { position: absolute; z-index: -1; top: 0; left: 0; width: 100%; height: 15rem; background-image: url('../../../static/img/bg-red.png'); background-repeat: no-repeat; background-size: 100% auto; }
+.MyUser .seticon { background: #fff; margin-bottom: 0.75rem; }
+.MyUser .seticon:last-child { margin-bottom: 0;}
+.MyUser .seticon .title.box { display: black; box-sizing: border-box; width: 100%; height: 4.7rem;line-height: 4.7rem;padding: 0 1.25rem; text-align: left; border-bottom: 1px solid #f2f2f2; }
+.MyUser .seticon .title.box .inline-black { font-size: 1.26rem; display: inline-block; font-weight: bold; }
+.MyUser .seticon .title.box a { font-size: 1.16rem; float: right; }
+.MyUser .seticon .title.box .inline-black i.icon { font-size: 1.15rem; }
+.MyUser #information {margin-bottom: 0; position: static; left: 0; width: 100%; height: 12.8rem; padding: 1.8rem 0;color: #fff; padding-bottom: 1.66rem; background-image: linear-gradient(-3deg, #ff5a3f 0%, #ff4e41 50%, #ff4242 100%), linear-gradient(#f02222, #f02222);background-blend-mode: normal, normal;}
+.MyUser #information .box { position: relative; top: 0; width: 100%; padding-top: .25rem; }
+.MyUser #information .grade { position: absolute; z-index: 99; top: 0rem; left: 0rem; display: block; overflow: hidden; width: 4rem; height: 4rem; border-radius: .5rem 0 0 0; }
+.MyUser #information .grade span { font-size: 1.05rem; line-height: 8.4rem; position: absolute; top: -2.5rem; left: -2.5rem; display: block; width: 5rem; height: 5rem; -webkit-transform: rotateZ(-45deg); -ms-transform: rotateZ(-45deg); -o-transform: rotateZ(-45deg); transform: rotateZ(-45deg); text-align: center; vertical-align: bottom; }
+.MyUser #information .grade.yellow span { color: rgba(120, 60, 0, 1); background-color: rgba(255, 200, 0, 1); }
+.MyUser #information .grade.green span { color: rgba(160, 120, 0, 1); background-color: rgba(120, 255, 0, 1); }
+.MyUser #information .setting.right { position: absolute; top: .5rem; right: 2.4rem/*1.85rem*/; display: black; width: 1.8rem; height: 1.8rem; }
+.MyUser #information .setting.right i.icon { font-size: 2rem; }
+.MyUser #information .user.info { width: calc(100% - 4.8rem); height: 6.3rem;margin: 0 2.4rem;/*text-align: center; */}
+.MyUser #information .user.info .header { float: left;overflow: hidden; box-sizing: border-box; width: 6.25rem; height: 6.25rem; margin-right: 1.8rem;border: .1rem solid #fff; border-radius: 50%; }
+.MyUser #information .user.info .header.default { border-color: #e5e5e5; }
+.MyUser #information .user.info .header img { width: 100%; height: 100%; }
+.MyUser #information .user.info .name { font-size: 1.5rem; color: #fff; text-align: left; padding-top: 0.8rem;}
+.MyUser #information .user.info .name span.sign {position:relative;top: -0.25rem;left: 0.6rem; padding: 0.3rem 0.8rem;font-size: 0.8rem !important; background: #e23621;border-radius: 0.75rem; }
+.MyUser #information .user.info .operate {margin-top: 1.55rem;font-size: 1.1rem; }
+.MyUser #information .user.info .operate span { padding: 0.3rem 1.2rem;border-radius: 1.8rem; }
+.MyUser #information .user.info .operate span:nth-child(1) {color: #fcd000;border: 0.05rem solid #fcd000;margin-right: 1.2rem; }
+.MyUser #information .user.info .operate span:nth-child(2) {color: #fff;border: 0.05rem solid #fff; }
+.MyUser #information .user.info .operate i {font-size: 1.2rem;margin-right: 0.6rem;}
+.MyUser #information .itemLists { width: 100%; margin: 2.4rem auto 0; }
+.MyUser #information .itemLists .item { position: relative;top: 0;left: 0;display: inline-block; width: 20%; text-align: center; }
+.MyUser #information .itemLists .item .line { position: absolute; right: 0.1rem; top: .4rem;display: inline-block;width: .1rem; height: 3.2rem; background-image: url(./line.png); background-size: 100% 100%; }
+.MyUser #information .itemLists .item:last-child { border-right: none; }
+.MyUser #information .itemLists .item:last-child .line { background-image: none; }
+.MyUser #information .itemLists .item .item-val { font-size: 1.4rem; margin-bottom: 1.0rem; }
+.MyUser #information .itemLists .item .item-title { font-size: 1.2rem; color: #fff; }
+.MyUser .seticon { position: static; left: 0; /*margin-top: 1.65rem;*/ padding: 0; }
+.MyUser .seticon .items { display: block; width: 100%; }
+.MyUser .seticon .items:after { display: block; clear: both; content: ''; }
+.MyUser .seticon .items > .item { position: relative; display: inline-block; float: left; box-sizing: border-box; width: 20%; padding: 2.5rem 0; text-align: center; }
+.MyUser .seticon .items > .item span.number { margin-top: .25rem; font-size: 1rem; line-height: 1.65rem; position: absolute; top: 20%; right: 26%; overflow: hidden; box-sizing: border-box; min-width: 1.6rem; height: 1.6rem; text-align: center; letter-spacing: -.5px; color: #ff5a5a; border: 1.1px solid #ff5a5a; border-radius: 50%; background: white; display: inline-block; box-sizing: border-box; }
+.MyUser .seticon .items > .item span.number.upOrder { top: 21%; }
+.MyUser .seticon .items > .item .icon { width: 3rem; height: 3rem; line-height: 3rem;margin-bottom: 0.3rem; text-align: center; display: inline-block; font-size: 2.0rem; color: #ff5a5a; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: -webkit-linear-gradient(rgba(255, 65, 65, 1), rgba(255, 135, 90, 1)); background-image: -o-linear-gradient(rgba(255, 65, 65, 1), rgba(255, 135, 90, 1)); background-image: linear-gradient(rgba(255, 65, 65, 1), rgba(255, 135, 90, 1)); }
+.MyUser #upgrade .items > .item:nth-child(1) .icon { font-size: 1.8rem; }
+.MyUser #upgrade .items > .item:nth-child(1) > div { margin-top: 0.15rem; }
+.MyUser #upgrade .items > .item:nth-child(2) .icon { font-size: 2.0rem; }
+.MyUser #upgrade .items > .item:nth-child(3) .icon { line-height: 3.1rem; }
+.MyUser #upgrade .items > .item:nth-child(5) .icon { font-size: 2.1rem; }
+.MyUser #orders .items > .item:nth-child(2) .icon { line-height: 3.3rem; font-size: 2.2rem; }
+.MyUser #orders .items > .item:nth-child(3) .icon { line-height: 3.1rem; }
+.MyUser #orders .items > .item:nth-child(4) .icon { line-height: 2.6rem; }
+.MyUser #orders .items > .item:nth-child(5) .icon { font-size: 2.65rem; }
+.MyUser .seticon .items > .item .text.name { font-size: 1.2rem; margin-top: .25rem; color: #333; }
+.MyUser #system { position: static; left: 0; margin-bottom: 0;}
+.MyUser #system ul.functions { width: 100%; }
+.MyUser #system ul.functions:after { display: block; clear: both; content: ''; }
+.MyUser #system ul.functions li { display: inline-block; float: left; box-sizing: border-box; width: 20%; padding: 2.4rem 1.2rem; text-align: center; border-bottom: 1px solid #f2f2f2; }
+.MyUser #system ul.functions li i.icon { font-size: 2.4rem; display: inline-block; width: 2.96rem; height: 2.3rem; text-align: center; line-height: 2.6rem; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.MyUser #system ul.functions li.border-none i.icon { font-size: 1.9rem; }
+.MyUser #system ul.functions li.border-none i.icon.icon-fankui { font-size: 1.9rem; }
+.MyUser #system ul.functions li i.icon.darkred {-webkit-transform: scale(1.25, 1.25); -ms-transform: scale(1.25, 1.25); -o-transform: scale(1.25, 1.25); transform: scale(1.25, 1.25); background-image: -webkit-linear-gradient(rgba(255, 65, 65, 1), rgba(255, 135, 90, 1)); background-image: -o-linear-gradient(rgba(255, 65, 65, 1), rgba(255, 135, 90, 1)); background-image: linear-gradient(rgba(255, 65, 65, 1), rgba(255, 135, 90, 1)); }
+.MyUser #system ul.functions li i.icon.blue { background-image: -webkit-linear-gradient(rgba(80, 170, 255, 1), rgba(0, 240, 250, 1)); background-image: -o-linear-gradient(rgba(80, 170, 255, 1), rgba(0, 240, 250, 1)); background-image: linear-gradient(rgba(80, 170, 255, 1), rgba(0, 240, 250, 1)); }
+.MyUser #system ul.functions li i.icon.yellows { -webkit-transform: scale(1.25, 1.25); -ms-transform: scale(1.25, 1.25); -o-transform: scale(1.25, 1.25); transform: scale(1.25, 1.25); background-image: -webkit-linear-gradient(rgba(255, 160, 65, 1), rgba(250, 112, 155, 1)); background-image: -o-linear-gradient(rgba(255, 160, 65, 1), rgba(250, 112, 155, 1)); background-image: linear-gradient(rgba(255, 160, 65, 1), rgba(250, 112, 155, 1)); }
+.MyUser #system ul.functions li i.icon.purple { background-image: -webkit-linear-gradient(rgba(135, 65, 255, 1), rgba(230, 180, 200, 1)); background-image: -o-linear-gradient(rgba(135, 65, 255, 1), rgba(230, 180, 200, 1)); background-image: linear-gradient(rgba(135, 65, 255, 1), rgba(230, 180, 200, 1)); }
+.MyUser #system ul.functions li i.icon.red {font-size: 2.05rem; background-image: -webkit-linear-gradient(rgba(255, 80, 80, 1), rgba(245, 155, 255, 1)); background-image: -o-linear-gradient(rgba(255, 80, 80, 1), rgba(245, 155, 255, 1)); background-image: linear-gradient(rgba(255, 80, 80, 1), rgba(245, 155, 255, 1)); }
+.MyUser #system ul.functions li i.icon.gray { background-image: -webkit-linear-gradient(rgba(185, 180, 185, 1), rgba(160, 160, 160, 1)); background-image: -o-linear-gradient(rgba(185, 180, 185, 1), rgba(160, 160, 160, 1)); background-image: linear-gradient(rgba(185, 180, 185, 1), rgba(160, 160, 160, 1)); }
+.MyUser #system ul.functions li .name { font-size: 1.1rem; margin-top: 1.25rem; color: #333; }
+.MyUser #system ul.functions li.border-none { border-bottom: none; }
+.contact {font-size: 1.1rem;color: #333;}

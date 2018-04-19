@@ -1,0 +1,25 @@
+.footprint { background-color: #f4f4f4; }
+.content { background-color: #F5F5F5; }
+.footprint .box { background-color: #fff; padding-bottom: 1.5rem; border-bottom: 0.1rem solid #F4F4F4; }
+.footprint .box:last-child { padding-bottom: 0; margin-bottom: 0; }
+.footprint ul li.item:last-child .body { border-bottom: none; }
+.footprint ul { background-color: transparent; }
+.footprint ul li.item { position: relative; background-color: white; width: 100%; height: 11rem; box-sizing: border-box; }
+.footprint ul li.item:before { content: ''; display: block; position: absolute; bottom: 0; right: 0; left: 12.16rem; border-bottom: 0.1rem dotted #E5E5E5; }
+.footprint ul li.item:after { content: ''; display: block; clear: both; }
+.footprint ul li.item .cover { width: 10rem; height: 10rem; overflow: hidden; display: inline-block; vertical-align: top; float: left; border-radius: 0.3rem; }
+.footprint ul li.item .cover img { width: 100%; min-height: 100%; height: auto; }
+.footprint ul li.item .body { border-bottom: 1px dotted gray; box-sizing: border-box; -webkit-box-sizing: border-box; width: calc(100% - 11rem); height: 10rem; vertical-align: top; display: inline-block; float: left; letter-spacing: .75px; padding-top: 1rem; margin-left: 1rem; }
+.ellipsis { white-space: nowrap; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
+.footprint ul li.item .body .good-name,
+.footprint ul li.item .body .good-desc,
+.footprint ul li.item .body .good-price { box-sizing: border-box; }
+.footprint ul li.item .body .good-name { height:; line-height: 1.75rem; color: #333; font-size: 1.195rem; font-weight: 500; color: #000000; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; word-break: break-all; }
+.footprint ul li.item .body .good-price { box-sizing: border-box; color: #333; font-size: 1.3rem; font-weight: 500; line-height: 1.7rem; color: #ff4243; }
+.footprint ul li.item .body .good-desc .desc { color: #666; font-size: 1.17rem; height: 2rem; line-height: 2rem; margin: 0.5rem 0; }
+.footprint ul li.item .body .good-desc .integral { float: right; font-size: 1.17rem; vertical-align: top; display: inline-block; height: 2.6rem; line-height: 1.67rem; border: 1px solid #eee; border-radius: .7rem; padding: .5rem; box-sizing: border-box; background-color: white; }
+.footprint ul li.item .body .good-desc .integral span.red { color: #ff4342; }
+.footprint p { box-sizing: border-box; padding-left: 1.16rem; padding-bottom: 0.25rem; font-size: 1.2rem; line-height: 3.2rem; border-bottom: 0.1rem solid #EBEBEB; }
+.footprint ul li.item .item-box { position: absolute; z-index: 100; top: 0; right: 0; bottom: 0; left: 0; padding: 0.5rem 1rem; transition: .3s; background: #fff;}
+.footprint ul li.item .remove { line-height: 11rem; position: absolute; top: 0; right: 0; width: 15%; height: 11rem; text-align: center; color: #fff; background-color: #ff4342; }
+.footprint ul li.item .remove i { font-size: 1.6rem; }

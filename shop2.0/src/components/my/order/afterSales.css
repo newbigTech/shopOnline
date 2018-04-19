@@ -1,0 +1,163 @@
+.more { font-size: 1.4rem; line-height: 2.0rem; padding: 1rem 0; text-align: center; color: #666; }
+.img-pop { position: fixed; top: 0; left: 0; width: 100%; height: 100%; vertical-align: sub; background: rgba(0, 0, 0, 1.0); }
+.img-pop img { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; margin: auto; }
+#afterSalesNegotiate input[type='file'],
+#afterSales input[type='file'] { display: none; }
+#afterSales { background-color: #f4f4f4; }
+#afterSales .from-box { padding: 0 1rem; background-color: white; }
+#afterSales .from-box .item { line-height: 4.14rem; position: relative; height: 4.15rem; border-bottom: 1px solid #e6e6e6; }
+#afterSales .from-box .item label { font-size: 1.2rem; font-weight: 500; display: inline-block; width: 7rem; text-align: left; vertical-align: top; color: #666; }
+#afterSales .from-box .item.info { height: 14.5rem; }
+#afterSales .from-box .item.info label { width: 100%; }
+#afterSales .from-box .item.info label span.help { font-size: 1rem; float: right; color: #999; }
+#afterSales .from-box .item label:before { font-size: 2rem; font-size: .8rem; line-height: 4.5rem; display: inline-block; height: 4.15rem; margin-right: .5rem; content: '*'; vertical-align: middle; color: #ff4242; }
+#afterSales .from-box .item.info label:before { content: ''; }
+#afterSales .from-box .item > i.icon { font-weight: 500; position: absolute; top: 0; right: 0; }
+#afterSales .from-box .item .val { font-size: 1.2rem; line-height: 4.15rem; display: inline-block; width: calc(100% - 8rem); height: 4.15rem; margin-left: .5rem; color: #999; padding-left: .25rem; box-sizing: border-box; }
+#afterSales .from-box .item .val.on { color: #333; }
+#afterSales .from-box .item .val input { font-size: 1.2rem; display: inline-block; width: 9rem; color: #999; height: 2.4rem; }
+#afterSales .from-box .item .val input:focus,
+#afterSales .from-box .item .val input.on { color: #ff4242; }
+#afterSales .from-box .item .val input.on[disabled="disabled"] { color: #999; }
+#afterSales .from-box .item .val span.active { font-size: 1.2rem; margin-left: .5rem; vertical-align: top; color: #ff4242; }
+#afterSales .from-box .item .val span.help { font-size: 1rem; float: right; vertical-align: bottom; color: #999; }
+#afterSales .from-box .item .val.info { position: relative; display: block; width: 100%; height: 10rem; margin-left: 0; }
+#afterSales .from-box .item .val.info textarea.instruction { font-size: 1.2rem; box-sizing: border-box; width: 100%; height: calc(100% - 1rem); padding: .1rem .75rem; resize: none; color: #999; border: none; }
+#afterSales .from-box .item .val.info textarea.instruction:focus,
+#afterSales .from-box .item .val.info textarea.instruction.on { color: #333; }
+#afterSales .from-box .item.image { height: auto; padding-bottom: 1rem; }
+#afterSales .from-box .item.image label { width: 100%; }
+#afterSales .from-box .item.image label:before { content: ''; }
+#afterSales .from-box .item.image .buttom-box { width: auto; height: auto; border-radius: .5rem; }
+#afterSales .from-box .item.image .buttom-box .image { display: inline-block; width: auto; height: 6rem; vertical-align: top; }
+#afterSales .from-box .item.image .buttom-box .image .imageUrl { position: relative; display: inline-block; width: 6rem; height: 6rem; margin-right: 1rem; }
+#afterSales .from-box .item.image .buttom-box .image .imageUrl .delImage { font-size: 2rem; font-weight: 500; line-height: 1.25rem; position: absolute; top: -.35rem; right: -.35rem; width: 1.5rem; height: 1.5rem; text-align: center; vertical-align: middle; color: white; border-radius: 50%; background-color: #ff4242; }
+#afterSales .from-box .item.image .buttom-box .image .imageUrl .showimg { overflow: hidden; width: 100%; height: 100%; }
+#afterSales .from-box .item.image .buttom-box .image .imageUrl img { width: auto; max-width: 100%; height: auto; min-height: 100%; border-radius: .5rem; }
+#afterSales .from-box .item .avatar-uploader { position: relative; display: inline-block; overflow: hidden; width: 6rem; height: 6rem; vertical-align: top; border: 1px dotted #ececec; border-radius: .5rem; }
+#afterSales .from-box .item .el-upload { position: absolute; top: 0; display: block; width: 6rem; height: 6rem; text-align: center; }
+#afterSales .from-box .item .el-upload i.icon { font-size: 3rem; display: block; height: 3rem; margin: .5rem auto .25rem; color: #999; }
+#afterSales .from-box .item .el-upload input.el-upload__input { display: none; }
+#afterSales .from-box .item .el-upload span { font-size: 1.1rem; line-height: normal; display: block; width: 100%; text-align: center; color: #999; }
+#afterSales .footer-box { position: fixed; right: 1.5rem; left: 1.5rem; bottom: 1rem; }
+#afterSales .footer-box a.action { font-size: 1.5625rem; line-height: 4rem; position: absolute; bottom: 1rem; display: block; width: 100%; height: 4rem; text-align: center; color: white; border-radius: .5rem; background-color: #ff4242; }
+#afterSales .error-box,
+#afterSalesList .error-box { position: fixed; top: 50%; right: 8rem; left: 8rem; height: 36rem; margin-top: -22rem; text-align: center; }
+#afterSales .error-box .error-icon,
+#afterSalesList .error-box .error-icon { margin-bottom: 1.5rem; margin-left: 1rem; }
+#afterSales .error-box .error-icon img,
+#afterSalesList .error-box .error-icon img { width: 90%; height: auto; min-height: 90%; }
+#afterSales .error-box .error-help,
+#afterSalesList .error-box .error-help { font-family: '宋体'; font-size: 1.35rem; line-height: 2rem; margin: 0 -3.5rem; text-align: left; text-indent: 2em; color: #333; }
+#afterSales .goHome ,
+#afterSalesList .goHome { margin-top: 15px; text-align: center; text-indent: 0; }
+#afterSales a.link { font-size: 1.19rem; font-weight: 300; line-height: 2.5rem; display: inline-block; height: 2.5rem; padding: 0 1rem; text-align: center; text-indent: 0; opacity: .5; color: #333; border: .7px double #333; border-radius: .25rem; }
+#afterSales a.link:nth-child(2n) { color: #ff4242; border-color: #ff4242; }
+#afterSalesState { background-color: #f4f4f4; }
+#afterSalesState .prompt-box { position: relative; box-sizing: border-box; width: 100%; margin-bottom: 1rem; padding: 1.5rem 0 1rem 2rem; background-color: #ff4242; }
+#afterSalesState .prompt-box:after { position: absolute; bottom: -.75rem; left: 0; display: block; width: 100%; height: 1rem; content: ''; background-image: url('/static/img/back-red.png'); background-size: cover; }
+#afterSalesState .prompt-box > div,
+#afterSalesState .prompt-box span { line-height: 1.75em; color: white; }
+#afterSalesState .prompt-box .state { font-size: 1.37rem; margin-bottom: .5rem; }
+#afterSalesState .prompt-box .item { font-size: 1.1rem; }
+#afterSalesState .prompt-box .item.fg { height: 3.5rem; }
+#afterSalesState .prompt-box .item.fg:after { content: ''; clear: both; display: inline-block; }
+#afterSalesState .prompt-box span { display: inline-block; margin-left: .75rem; vertical-align: top; }
+#afterSalesState .prompt-box .item.fg span { float: left; margin-left: 0; }
+#afterSalesState .prompt-box .item.fg span.line2 {margin-left: .75rem; display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 2; width: calc(100% - 12rem); }
+#afterSalesState .prompt-box .select-box,
+#afterSalesState .prompt-box .input-box { display: inline-block; margin: .45rem 0; }
+#afterSalesState .prompt-box .select-box *,
+#afterSalesState .prompt-box .input-box * { line-height: 2.2rem; height: 2.2rem; border-radius: .25rem; }
+#afterSalesState .prompt-box .select-box select { width: 10rem; text-indent: .25rem; }
+#afterSalesState .prompt-box .input-box input { font-size: 1.1rem; width: 15rem; text-indent: 1rem; color: #999; }
+#afterSalesState .prompt-box span.callback { font-size: 1.1rem; color: #fc0; }
+#afterSalesState .mint-cell { margin-bottom: 1rem; }
+#afterSalesState .mint-cell-text { font-size: 1.2875rem; color: #333; }
+#afterSalesState .order-info { box-sizing: border-box; width: 100%; padding: 0 1.5rem; background-color: white; }
+#afterSalesState .order-info .items .item { padding: 1.15rem 0; text-align: left; border-bottom: 1px dotted #e5e5e5; }
+#afterSalesState .order-info .items .item label { font-size: 1.2875rem; line-height: 1.6rem; display: inline-block; width: 5em; vertical-align: top; color: #666; }
+#afterSalesState .order-info .items .item span.val { font-size: 1.2875rem; line-height: 1.6rem; display: inline-block; width: calc(100% - 7em); margin-left: 1rem; vertical-align: top; color: #333; }
+#afterSalesState .system-box { position: fixed; right: 0; bottom: 0; left: 0; display: block; padding: 1.25rem 1.5rem; text-align: right; background-color: white;padding-bottom: constant(safe-area-inset-bottom); }
+#afterSalesState .system-box a.order.button { font-size: 1.19rem; font-weight: 300; line-height: 2.5rem; display: inline-block; height: 2.5rem; padding: 0 1rem; color: #333; border: .1px double #333; border-radius: .25rem; }
+#afterSalesState .system-box a.order.button.active { color: #ff4242; border-color: #ff4242; }
+#afterSalesState .system-box a.order.button ~ a.order.button { margin-left: .75rem; }
+#afterSalesState .system-box.content { background-color: transparent; }
+#afterSalesState .system-box.content a.order.button.big { font-size: 1.5625rem; line-height: 4rem; box-sizing: border-box; width: 100%; height: 4rem; text-align: center; color: white; border: none; border-radius: .5rem; background-color: #ff4242; }
+#afterSalesNegotiate { box-sizing: border-box; width: 100%; padding: .85rem 1.15rem; background-color: #f4f4f4; }
+#afterSalesNegotiate .negotiate-box { line-height: 3.5rem; box-sizing: border-box; height: 3.5rem; background-color: white; }
+#afterSalesNegotiate .negotiate-box input { font-size: 1.2875rem; display: block; width: 100%; height: 100%; padding-left: .85rem; color: #999; border: none; }
+#afterSalesNegotiate .negotiates-list .negotiate-item { box-sizing: border-box; margin-top: 1rem; padding: .85rem; background-color: white; }
+#afterSalesNegotiate .negotiates-list .negotiate-item .userInfo { line-height: 1.6rem; height: 3.2rem; padding-bottom: 1rem; border-bottom: 1px dotted #ececec; }
+#afterSalesNegotiate .negotiates-list .negotiate-item .userInfo .cover { display: inline-block; overflow: hidden; width: 3.2rem; height: 3.2rem; margin-right: 1rem; vertical-align: top; border-radius: .5rem; }
+#afterSalesNegotiate .negotiates-list .negotiate-item .userInfo img { width: 100%; height: auto; min-height: 100%; }
+#afterSalesNegotiate .negotiates-list .negotiate-item .userInfo .info { display: inline-block; float: right; width: calc(100% - 4.2rem); vertical-align: top; }
+#afterSalesNegotiate .negotiates-list .negotiate-item .userInfo .info span { line-height: 1.6rem; display: block; }
+#afterSalesNegotiate .negotiates-list .negotiate-item .userInfo .info span.name { font-size: 1.2875rem; color: #333; vertical-align: top; }
+#afterSalesNegotiate .negotiates-list .negotiate-item .userInfo .info span.time { font-size: 1.1rem; color: #666; vertical-align: bottom; margin-top: .45rem; }
+#afterSalesNegotiate .negotiates-list .negotiate-desc { width: 100%; margin-top: .5rem; }
+#afterSalesNegotiate .negotiates-list .negotiate-desc:after { display: block; clear: both; content: ''; }
+#afterSalesNegotiate .negotiates-list .negotiate-desc .item { font-size: 1.2rem; line-height: 2rem; float: left; width: 100%; color: #333; overflow: hidden; }
+#afterSalesNegotiate .negotiates-list .negotiate-desc .item.img { margin-top: .5rem; }
+#afterSalesNegotiate .negotiates-list .negotiate-desc .item span { display: inline-block; font-size: 1.2rem; line-height: 2rem; vertical-align: bottom; color: #333; }
+#afterSalesNegotiate .negotiates-list .negotiate-desc .item span.title { width: 5.5rem; vertical-align: top; }
+#afterSalesNegotiate .negotiates-list .negotiate-desc .item span.title.min { width: 3.5rem;  }
+#afterSalesNegotiate .negotiates-list .negotiate-desc .item span.val { width: calc(100% - 6.5rem); word-wrap: break-word; }
+/*#afterSalesNegotiate .negotiates-list .negotiate-desc .item span ~ span { margin-left: .15rem; }*/
+#afterSalesNegotiate .negotiates-list .negotiate-desc .item .cover { display: inline-block; overflow: hidden; width: 6rem; height: 6rem; margin-right: .5rem; border: 2px solid #ddd; border-radius: .5rem; }
+#afterSalesNegotiate .negotiates-list .negotiate-desc .item .cover img { width: 100%; min-height: 100%; }
+
+#afterSalesNegotiate .negotiate-box.on { width: 100%; height: auto; padding: 1rem; background-color: white; }
+#afterSalesNegotiate .negotiate-box.on#input-box { position: relative; }
+#afterSalesNegotiate .negotiate-box.on:first-child { height: 12.75rem; }
+#afterSalesNegotiate .negotiate-box.on ~ .negotiate-box.on { margin-top: 1rem; }
+#afterSalesNegotiate .negotiate-box.on #negotiateText { position: absolute; z-index: 2; top: 1rem; right: 1rem; bottom: 1rem; left: 1rem; width: calc(100% - 2rem); border: none; resize: none; }
+#afterSalesNegotiate .negotiate-box.on #negotiateText::focus { background: white; }
+#afterSalesNegotiate .negotiate-box.on .number-box { font-size: 1rem; line-height: 2rem; position: absolute; z-index: 2; right: .75rem; bottom: .25rem; color: #999; background-color: transparent; }
+#afterSalesNegotiate .negotiate-box.on .number-box.active { color: #ff4242; }
+#afterSalesNegotiate .negotiate-box.on .buttom-box { width: 100%; }
+#afterSalesNegotiate .negotiate-box.on .buttom-box .image { display: inline-block; width: auto; height: 6rem; vertical-align: top; }
+#afterSalesNegotiate .negotiate-box.on .buttom-box .image .imageUrl { position: relative; display: inline-block; width: 6rem; height: 6rem; margin-right: 1rem; border-radius: .5rem; }
+#afterSalesNegotiate .negotiate-box.on .buttom-box .image .imageUrl .delImage { font-size: 2rem; font-weight: 500; line-height: 1.5rem; position: absolute; top: -.35rem; right: -.35rem; width: 1.5rem; height: 1.5rem; text-align: center; vertical-align: middle; color: white; border-radius: 50%; background-color: #ff4242; }
+#afterSalesNegotiate .negotiate-box.on .buttom-box .image .imageUrl .showimg { overflow: hidden; width: 100%; height: 100%; border-radius: .5rem; }
+#afterSalesNegotiate .negotiate-box.on .buttom-box .image .imageUrl img { width: 100%; min-height: 100%; }
+#afterSalesNegotiate .negotiate-box.on .buttom-box .avatar-uploader { position: relative; display: inline-block; overflow: hidden; width: 6rem; height: 6rem; vertical-align: top; border: 1px dotted #ececec; border-radius: .5rem; }
+#afterSalesNegotiate .negotiate-box.on .buttom-box .el-upload { position: absolute; top: 0; display: block; width: 6rem; height: 6rem; text-align: center; }
+#afterSalesNegotiate .negotiate-box.on .buttom-box .el-upload i.icon { font-size: 3rem; display: block; height: 3rem; margin: .5rem auto .25rem; color: #999; }
+#afterSalesNegotiate .negotiate-box.on .buttom-box .el-upload input.el-upload__input { display: none; }
+#afterSalesNegotiate .negotiate-box.on .buttom-box .el-upload span { font-size: 1.1rem; line-height: normal; display: block; width: 100%; text-align: center; color: #999; }
+#afterSalesNegotiate .negotiate-box.on .negotiate-action { line-height: normal; width: 100%; margin: 1rem auto 0; text-align: right; }
+#afterSalesNegotiate .negotiate-box.on .negotiate-action .action { font-size: 1.2rem; line-height: 2.5rem; display: inline-block; width: 6.65rem; height: 2.5rem; text-align: center; border-radius: .25rem; border: 1px solid #ddd; margin-left: .75rem; }
+#afterSalesNegotiate .negotiate-box.on .negotiate-action .action.active { background-color: #ff4242; color: white; border: none; }
+
+#afterSalesList { background-color: #f4f4f4; }
+#afterSalesList .order-item { box-sizing: border-box; width: 100%; margin-bottom: 1rem; padding: 0 1rem; background-color: white; }
+#afterSalesList .order-item > * { box-sizing: border-box; }
+#afterSalesList .order-item .order-title { width: 100%; border-bottom: 1px double #e5e5e5; }
+#afterSalesList .order-item .order-title .shop * { line-height: 3.75rem; display: inline-block; height: 3.75rem; vertical-align: top; }
+#afterSalesList .order-item .order-title .shop { display: inline-block; }
+#afterSalesList .order-item .order-title .shop i.icon { font-size: 2rem; line-height: 3.5rem; margin-right: .5rem; color: #b5b4b7; }
+#afterSalesList .order-item .order-title .shop span.name { font-size: 1.19rem; display: inline-block; color: #b5b4b7; color: #333; }
+#afterSalesList .order-item .order-title .order-state { line-height: 3.75rem; display: inline-block; float: right; height: 3.75rem; }
+#afterSalesList .order-item .order-title .order-state span { font-size: 1.19rem; font-weight: 500; letter-spacing: .05rem; color: #999; }
+#afterSalesList .order-item .order-title .order-state span.active { color: #ff4242; }
+#afterSalesList .order-item .order-title .order-state i.icon { font-size: 1rem; }
+#afterSalesList .order-item .order-info { width: 100%; padding: 1rem 0; border-bottom: 1px dotted #dbdbdb; }
+#afterSalesList .order-item .order-info .order-cover { display: inline-block; overflow: hidden; width: 6.65rem; height: 6.65rem; }
+#afterSalesList .order-item .order-info .order-cover img { width: 100%; height: auto; min-height: 100%; }
+#afterSalesList .order-item .order-info .order-desc { display: inline-block; width: calc(100% - 7rem); vertical-align: top; }
+#afterSalesList .order-item .order-info .order-name { font-size: 1.2rem; line-height: 1.4rem; display: block; display: -webkit-box; overflow: hidden; padding: 0 .5rem; text-overflow: ellipsis; color: #333; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+#afterSalesList .order-item .order-info .order-help { display: block; margin: .5rem 0 .75rem; padding: 0 .5rem; padding-right: 2.5rem; }
+#afterSalesList .order-item .order-info .order-help span { font-size: 1rem; color: #999; }
+#afterSalesList .order-item .order-info .order-help .key { line-height: 1.4rem; margin-right: 1.5rem; }
+#afterSalesList .order-item .order-info .order-help .goods-number { float: right; margin-top: 0; margin-right: -2rem; }
+#afterSalesList .order-item .order-info .order-price.afterSales { font-size: 1rem; padding: 0 .5rem; color: #ff4242; }
+#afterSalesList .order-item .order-info .order-price.afterSales span { font-size: 1.3rem; font-weight: 500; margin-left: 1rem; }
+#afterSalesList .order-item .order-system { display: block; padding: .75rem 0; text-align: right; }
+#afterSalesList .order-item .order-system .order-state { font-size: 1.2rem; font-weight: 500; width: 100%; text-align: left; color: #333; }
+#afterSalesList .order-item .order-system .order-state i.icon { font-size: 1.25rem; font-weight: 500; margin-right: .25rem; vertical-align: middle; color: #ff4242; }
+#afterSalesList .order-item .order-system .order-state i.icon.active { color: #28a745; vertical-align: middle; }
+#afterSalesList .order-item .order-system .order-state span { margin-right: .15em; vertical-align: middle; }
+#afterSalesList .order-item .order-system a.order.button { font-size: 1.19rem; font-weight: 300; line-height: 2.5rem; display: inline-block; height: 2.5rem; padding: 0 1rem; color: #333; border: .1px double #333; border-radius: .25rem; }
+#afterSalesList .order-item .order-system a.order.button.active { color: #ff4242; border-color: #ff4242; }
+#afterSalesList .order-item .order-system a.order.button ~ a.order.button { margin-left: .75rem; }

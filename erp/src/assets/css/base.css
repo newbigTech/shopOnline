@@ -1,0 +1,36 @@
+@import url(./operation.css);
+/* 饿了么分页 */
+.el-pagination {
+	margin: 20px auto;
+	text-align: center;
+}
+.el-table .red-row {
+	color: #ff4242 !important;
+}
+/* 弹框列表 */
+.dialog-item {
+	margin-bottom: 20px;
+}
+.dialog-item > span {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+.dialog-item > input[type='text'],
+.dialog-item > input[type='password'],
+.dialog-item > input[type='number'],
+.dialog-item > textarea  {
+	min-width: 230px;
+    display: inline-block;
+    height: 45px;
+    padding: 5px;
+	vertical-align: middle;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	outline: none;
+}
+.dialog-item > textarea {
+	resize: none;
+}
+/* 弹框列表 END */
+

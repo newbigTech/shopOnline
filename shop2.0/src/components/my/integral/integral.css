@@ -1,0 +1,37 @@
+.content .inviting-details { position: relative; padding: 2rem 1.5rem 0; }
+.content .inviting-details .inviting-details .round-box { width: 8.75rem; height: 8.75rem; padding: 1.3rem; }
+.inviting-details .round-box p { font-size: 1.1rem; line-height: 2rem; }
+.inviting-details .round-box p.integral-num { font-size: 2rem; line-height: 4rem; }
+.u-three-list li .name { width: 8.75rem; height: 2.75rem; line-height: 2.75rem; font-size: 1.2rem; border: 0.1rem solid #E5E5E5; border-radius: 0.3rem; }
+.u-three-list li { width: 30%; margin: 0 10%; font-size: 1.3rem; margin-bottom: 2.25rem; height: auto; padding: 0; }
+.u-three-list li:nth-child(2) .name { margin: 0 auto; }
+.u-three-list li:last-child .name { float: right; }
+.u-three-list li .name i { margin-right: 0.2rem; font-size: 1.2rem; color: #FF4342; }
+.content .inviting-details .rule-box { position: absolute; right: 1rem; top: 1rem; font-size: 1.3rem; color: #999; }
+.content .inviting-details .rule-box i { font-size: 1.5rem; margin-right: 0.2rem; color: #c1c1c1; }
+.content .inviting-details .round-box .integral-num { font-size: 2rem; }
+.content .inviting-details .u-three-list { padding-top: 2rem; margin: 0 12%;}
+.division-line { position: relative; font-size: 1.25rem; line-height: 1rem; text-align: center; margin-bottom: 1rem; color: #999; }
+.division-line:before,
+.division-line:after { content: ''; background-color: #e6e6e6; height: 1px; width: 40%; position: absolute; top: 0.4rem; }
+.division-line:before { left: 0; }
+.division-line:after { right: 0; }
+
+/* 列表 */
+#myInviting .three-box-img-item { height: 6rem; border-bottom: 0.1rem solid #F5F5F5; }
+#myInviting .three-box-img-item .item-left { width: 70%; }
+#myInviting .three-box-img-item .item-right { width: 30%; }
+.three-box-img-item .item-right span.add { color: #ff4342; }
+.three-box-img-item .item-right span.reduce { color: #00b94a; }
+.three-box-img-item .item-left .item-ct .text,
+.three-box-img-item .item-left .item-ct .gray-text,
+#myInviting .content .three-box-img-item .item-right span { font-size: 1.3rem; }
+#myInviting .three-box-img-item .item-right span { display: inline-block; vertical-align: middle; }
+.three-box-img-item .item-left .item-ct .text { line-height: 2.2rem; }
+.three-box-img-item .item-left .item-ct .gray-text { line-height: 2.3rem; }
+.three-box-img-item .item-right { margin-top: 1.5rem; }
+#myInviting .content .three-box-img-item .item-left .item-ct { margin-left: 0; }
+.content .three-box-img-item .item-left .item-icon-box { width: 3rem; }
+.content .three-box-img-item .item-left .item-ct { margin-left: 3rem; }
+.content .three-box-img-item .item-right span { font-size: 1.4rem; line-height: 1.5rem; }
+#myInviting .inviting-list { overflow-y: auto; min-height: 33rem; }

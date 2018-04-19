@@ -1,0 +1,173 @@
+/* 最大宽度 */
+@media screen and ( min-width: 54rem) {
+    body {
+        width: 54rem;
+        margin: 0 auto;
+    }
+    #app {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .index,
+    .banner,
+    .pdDetails .product-img,
+    .pdDetails .buy,
+    .pdDetails .btm,
+    .joinCart .btm,
+    .goBuy .btm {
+    	width: 54rem !important;
+    	left: calc(50% - 27rem) !important;
+    	margin: 0 auto !important;
+    }
+    .header-bar,
+    .header-bar .nav {
+    	width: calc(54rem - 2.6rem) !important;
+    	left: calc(50% - 27rem) !important;
+    	margin: 0 auto !important;
+    }
+    .error-box {
+        width: 38rem;
+        left: 50% !important;
+        right: auto;
+        margin-left: -19rem;
+    }
+    .footer-box {
+        width: 51rem;
+        left: 50% !important;
+        right: auto;
+        margin-left: -25.5rem;
+    }
+    .system-box {
+        width: 54rem;
+        left: 50% !important;
+        right: auto;
+        margin-left: -27rem;
+        box-sizing: border-box;
+    }
+}
+/* 基础样式 */
+::-webkit-scrollbar {
+  display:none;
+}
+input[type="text"],
+input[type="password"] {
+	-webkit-appearance: none;
+}
+textarea {  
+	/*-webkit-appearance: none;*/
+}   
+input,
+button {
+	outline: none;
+	box-sizing: border-box;
+}
+button {
+	border: none;
+	cursor: pointer;
+}
+button[disabled="disabled"] {
+	background: #d9d9d9 !important;
+}
+/* banner */
+.banner .mint-swipe-indicators {
+	left: initial;
+	right: 1.8rem;
+}
+.banner .mint-swipe-indicator {
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-right: 0.6rem;
+}
+.product-img .mint-swipe-indicator {
+	width: 0.7rem;
+	height: 0.7rem;
+	margin-right: 1.5rem;
+}
+.banner .mint-swipe-indicator,
+.product-img .mint-swipe-indicator {
+	border: 0.05rem solid #fff;
+	opacity: 1;
+	border-radius: 0.2rem;
+	background: transparent;
+	box-sizing: border-box;
+}
+.banner .mint-swipe-indicator.is-active {
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.product-img .mint-swipe-indicator.is-active {
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.banner .mint-swipe-indicator.is-active,
+.product-img .mint-swipe-indicator.is-active {
+	background: #e93b3d;
+	border: 0.05rem solid #e93b3d;
+}
+/* banner END */
+
+/* 重写cell样式 */
+.forgetPwd .mint-cell-wrapper,
+.forgetPwd .mint-cell:last-child,
+.pdDetails .mint-cell-wrapper,
+.pdDetails .mint-cell:last-child,
+.login .mint-cell-wrapper,
+.login .mint-cell:last-child,
+.bindMobile .mint-cell-wrapper,
+.bindMobile .mint-cell:last-child,
+.manageBank  .mint-cell-wrapper,
+.manageBank .mint-cell:last-child {
+	background: none !important;
+	background-image: none !important;
+}
+.forgetPwd .mint-cell,
+.bindMobile .mint-cell,
+.manageBank .step3 .mint-cell {
+	min-height: 3.8rem;
+	border-radius: 0.3rem;
+	border: 0.05rem solid #a8a8a8;
+}
+.mint-cell-wrapper {
+	font-size: 1.3rem;
+	padding: 0 1.5rem !important;
+	background-image: none !important;
+}
+.mint-cell-text,
+.mint-cell-value > span {
+	font-size: 1.4rem;
+}
+.mint-cell-allow-right::after {
+	width: 0.6rem;
+	height: 0.6rem;
+    border: solid 0.05rem #666;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+.mint-field-core {
+	background: transparent;
+}
+/* 重写cell样式 END */
+
+#YSF-BTN-HOLDER {
+	display: none;
+}
+.manageBank .mint-cell-wrapper {
+	padding-left: 0 !important;
+}
+.manageBank .mint-field .mint-cell-title {
+	width: auto;
+	min-width: 6.0rem;
+	padding-right: 1.4rem;
+}
+.manageBank .mint-field .mint-cell-text,
+.manageBank .mint-field .mint-field-core {
+	font-size: 1.6rem;
+}
+.manageBank .part-bank .mint-field-core {
+	padding-left: 3.2rem;
+}
+.mint-msgbox-message {
+	line-height: 2.4rem;
+}
+/* 基础样式 END */
+

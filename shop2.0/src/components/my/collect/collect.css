@@ -1,0 +1,23 @@
+.my-collect { background-color: #f4f4f4;}
+.my-collect ul { background-color: transparent; }
+.my-collect ul li.item { position: relative; box-sizing: border-box; width: 100%; height: 11rem; margin-bottom: 1rem; padding: 1.5rem; background-color: white; }
+.my-collect ul li.item:after { display: block; clear: both; content: ''; }
+.my-collect ul li.item .cover { display: inline-block; float: left; overflow: hidden; width: 7.5rem; height: 7.5rem; vertical-align: top; }
+.my-collect ul li.item .cover img { width: 100%; height: auto; min-height: 100%; }
+.my-collect ul li.item .body { display: inline-block; float: left; width: calc(100% - 7.5rem); height: 7.5rem; vertical-align: top; letter-spacing: .75px; }
+.my-collect ul li.item .body .good-name,
+.my-collect ul li.item .body .good-desc,
+.my-collect ul li.item .body .good-price { line-height: 2.5rem; overflow: hidden; box-sizing: border-box; height: 2.5rem; padding: 0 1rem; white-space: nowrap; text-overflow: ellipsis; -ms-text-overflow: ellipsis; }
+.my-collect ul li.item .body .good-name { font-size: 1.35rem; font-weight: 500; color: #333; }
+.my-collect ul li.item .body .good-price { font-size: 1.35rem; font-weight: 500; line-height: 3rem; color: #ff4242; }
+.my-collect ul li.item .body .good-desc { height: 2.6rem; }
+.my-collect ul li.item .body .good-desc .desc { font-size: 1.17rem; line-height: 1.35rem; display: inline-block; overflow: visible; width: calc(100% - 10rem); height: 2.6rem; white-space: pre-line; color: #666; }
+.my-collect ul li.item .body .good-desc .goods-desc { display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+.my-collect ul li.item .body .good-desc .integral { color: #ff9000; font-size: 1.17rem; line-height: 1.67rem; display: inline-block; float: right; box-sizing: border-box; height: 2.6rem; padding: .5rem; vertical-align: top; border: 1px solid #ff9000; border-radius: .5rem; background-color: white; }
+.my-collect ul li.item .body .good-desc .integral span.red { color: #ff9000; }
+.my-collect ul li.item .item-box { position: absolute; z-index: 100; top: 0; right: 0; bottom: 0; left: 0; padding: 1.5rem; transition: .3s; border-bottom: .1rem solid #ddd; background-color: #fff; }
+.my-collect ul li.item .remove { line-height: 11rem; position: absolute; top: 0; right: 0; width: 15%; height: 11rem; text-align: center; color: #fff; background-color: #ff4342; }
+.my-collect ul li.item .remove i { font-size: 1.6rem; }
+.no-data { line-height: 6.0rem;text-align: center;font-size: 1.5rem;color: #666; }
+.no-data > img { width: 17.6rem;height: 15.8rem;margin-top: 9rem; }
+.no-data > p { font-size: 1.8rem;height: 1.8rem;line-height: 1.8rem;margin-top: 0.2rem;text-align: center;color: #999; }

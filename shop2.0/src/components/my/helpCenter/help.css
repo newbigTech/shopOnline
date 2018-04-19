@@ -1,0 +1,61 @@
+/* 帮助中心 */
+.content .query-box { height: 4.8rem; padding: .8rem 1.4rem .7rem; border-bottom: .1rem solid #e9e9e9; background-color: #fff; }
+.query-box .query { font-size: 1.3rem; line-height: 3rem; width: 100%; height: 3rem; margin: 0 auto; text-align: center; color: #999; border-bottom: .1rem solid #e9e9e9; border-radius: 1.25rem; background-color: #ededed; }
+.content .ct-bd { padding: 1rem 0; background-color: #f5f5f5; }
+.content .ct-bd .help-item { width: 100%; margin-bottom: 1rem; text-align: center; background-color: #fff; }
+.content .ct-bd .help-item:last-child { margin-bottom: 0; }
+.help-item .item-left { float: left; width: 10rem; }
+.help-item .item-left a { display: block; padding: 2.5rem 0; color: #333; }
+.help-item .item-left p { font-size: 1.4rem; line-height: 2rem; }
+.help-item .item-left p img { width: 2rem; height: 2rem; }
+.help-item .item-right { font-size: 1.3rem; margin-left: 10rem; border-left: .1rem solid #e5e5e5; }
+.help-item .item-right .u-fl { line-height: 5rem; width: 50%; height: 5rem; border-bottom: .1rem solid #e5e5e5; }
+.help-item .item-right .u-fl:nth-child(odd) { width: 50%; border-right: .1rem solid #e5e5e5; }
+.help-item .item-right .u-fl a { display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #333; }
+.help-item .item-right .u-fl:nth-child(even) { width: 50%; border-right: 0; }
+.help-item .item-right .u-fl:nth-last-child(1),
+.help-item .item-right .u-fl:nth-last-child(2) { border-bottom: 0; }
+
+/* 问题详情 */
+#helpDetails { min-height: 100vh; padding-bottom: 5.8rem; background-color: #f5f5f5; }
+#helpDetails .content { padding: 1.5rem 1.33rem; background-color: #fff; }
+#helpDetails .content .problem-box p,
+#helpDetails .content .answer-box p { font-size: 1.4rem; line-height: 1.7rem; }
+.mt { margin-bottom: 1.83rem; }
+#helpDetails .content .problem-icon,
+#helpDetails .content .answer-icon { font-size: 1.1rem; line-height: 1.7rem; display: block; float: left; width: 1.7rem; height: 1.7rem; margin-right: .2rem; text-align: center; color: #fff; border-radius: .16rem; background-color: #ff4342; }
+#helpDetails .content .answer-icon { background-color: #999; }
+#helpDetails .content .answer-box .tit-body { font-size: 1.4rem; line-height: 2rem; box-sizing: border-box; padding: 0 1rem 0 1.83rem; }
+#helpDetails .content .help-evaluate { padding-top: 7.5rem; }
+#helpDetails .content .help-evaluate .split { font-size: 1.3rem; line-height: 2.2rem; position: relative; text-align: center; color: #999; }
+#helpDetails .content .help-evaluate .split:after,
+#helpDetails .content .help-evaluate .split:before { position: absolute; position: absolute; top: 1rem; width: 10.5rem; height: .1rem; content: ' '; background-color: #e5e5e5; }
+#helpDetails .content .help-evaluate .split:before { left: 0; }
+#helpDetails .content .help-evaluate .split:after { right: 0; }
+#helpDetails .content .help-evaluate .btn-evaluate { font-size: 1.3rem; height: 5rem; margin-bottom: 1rem; padding-top: 2rem; }
+#helpDetails .content .help-evaluate .btn-evaluate .u-fl,
+#helpDetails .content .help-evaluate .btn-evaluate .u-fr { width: 50%; }
+#helpDetails .content .help-evaluate .btn-evaluate .u-fl { padding-right: 2rem; text-align: right; }
+#helpDetails .content .help-evaluate .btn-evaluate .u-fr { padding-left: 2rem; text-align: left; }
+#helpDetails .content .help-evaluate .btn-evaluate button { color: #999; background-color: #fff; }
+#helpDetails .content .help-evaluate .btn-evaluate button i { font-size: 1.5rem; margin-right: .3rem; }
+#helpDetails .content .help-evaluate .btn-evaluate .rotate i { display: inline-block; transform: rotate(180deg); }
+.evaluate-success { font-size: 1.3rem; text-align: center; }
+.evaluate-success i { margin-right: .5rem; }
+.evaluate-success .yes { color: #ff4342; }
+.evaluate-success .no { text-align: center; color: #999; }
+.evaluate-success .no i { display: inline-block; transform: rotate(180deg); }
+.text-two-item { font-size: 1.3rem; line-height: 5rem; height: 5rem; margin-top: 1rem; }
+
+/* 搜索问题 */
+.content .mint-cell:after { position: absolute; right: 0; bottom: 0; left: 1.5rem; height: .1rem; content: ' '; background-color: #e5e5e5; }
+.content .query-box { height: 4.8rem; padding: .8rem 1.4rem .7rem; border-bottom: .1rem solid #e9e9e9; background-color: #fff; }
+.query-box .query { float: left; position: relative; }
+.query-box .query i.icon-close { position: absolute; right: .5rem; font-size: .75rem; top: .5rem; }
+.query-box .query i { font-size: 1.6rem; float: left; margin-right: .4rem; color: #999; margin-top: .15rem; }
+.query-box .query { font-size: 1.5rem; line-height: 2rem; width: calc(100% - 3.5rem); height: 3rem; padding: .5rem 1.5rem; text-align: center; border-radius: 1.6rem; background-color: #ededed; }
+.query-box .query input { font-size: 1.3rem; line-height: 1.8rem; box-sizing: border-box; width: calc(100% - 2rem); height: 2rem; padding-top: .2rem; text-align: left; background-color: #ededed; }
+.query-box button { font-size: 1.2875rem; float: right; height: 3rem; background-color: #fff; }
+.content .ct-bd { background-color: #f5f5f5; }
+.content .no-item { font-size: 1.3rem; line-height: 4rem; text-align: center; color: #999; }
+#helpCenter .query-box .query i.icon-sousuo { position: absolute;left: 20%;top: 0.5rem; }

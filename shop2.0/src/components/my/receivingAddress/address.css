@@ -1,0 +1,52 @@
+.more { text-align: center; line-height: 2.0rem; font-size: 1.4rem; color: #666; padding: 1rem 0; }
+/* 收货地址列表 */
+.ellipsis { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.receivingAddress .content { height: calc(100vh); background-color: #fff; overflow-y: auto; }
+.address-list .address-hd { width: 100%; height: .5rem; /*border-top: .1rem solid #fbfbfb;*/ background-image: url(../../../assets/img/addressHd.jpg); background-size: 100% calc(100% + .1rem); }
+.address-list .address-item-ct { position: relative; overflow: hidden; box-sizing: border-box; width: 100%; height: 7.0rem; padding: 1.3rem 1.25rem; }
+.address-list .address-item-ct .item-box { position: absolute; z-index: 100; top: 0; right: 0; bottom: 0; left: 0; padding: 1.2rem 1.5rem 1.5rem 1.5rem; transition: .3s; border-bottom: .05rem solid #ddd; background-color: #fff;min-height: 0.4rem; }
+.address-list .address-item-ct .remove { line-height: 7.0rem; position: absolute; top: 0; right: 0; width: 15%; height: 7.0rem; text-align: center; color: #fff; background-color: #ff4342; }
+.address-list .address-item-ct .remove i { font-size: 1.6rem; }
+.address-list .address-item-ct a { display: block; float: left; width: 85%; color: #333; }
+.address-item-ct .item-name { font-size: 1.5rem; line-height: 2rem; float: left; width: 25%; height: 4rem; margin-right: 2.5%; }
+.address-item-ct .item-address { float: left; width: 72.5%; height: 4rem; }
+.address-item-ct .item-name .name,
+.address-item-ct .item-address .user-phone { display: block; vertical-align: top; line-height: 2rem; height: 2rem; font-size: 1.5rem; }
+/*.address-item-ct .item-name .name { line-height: 2rem; height: 2rem; position: relative; top: -0.4rem;left: 0; }
+.address-item-ct .item-address .user-phone { font-size: 1.5rem; line-height: 1.9rem; }*/
+.address-item-ct .item-name .name { text-align: center; }
+.address-item-ct .item-name .active-icon { height: 2rem; margin: 0 auto; display: block; width: auto; vertical-align: top; text-align: center; }
+.address-item-ct .item-name .active-icon span { font-size: 1.2rem; line-height: 1; display: inline-block; padding: 0.15rem 0.5rem; color: #d4282d; border: 0.05rem solid #d4282d; border-radius: .2rem; margin-top: .75rem; }
+.address-item-ct .item-address .address-detailed { font-size: 1.2rem; line-height: 2.6rem; height: 2.6rem; color: #999; }
+.address-item-ct .item-edit { line-height: 4.4rem; float: left; width: 15%; text-align: right; }
+.address-item-ct .item-edit i { font-size: 1.5rem; color: #666; }
+.receivingAddress .content .btn-box { position: fixed; right: 2rem; bottom: 0; left: 2rem;padding-bottom: constant(safe-area-inset-bottom); }
+.receivingAddress .content .btn-box .u-btn { font-size: 1.4rem; line-height: 4.12rem; float: left; box-sizing: border-box; width: calc((100% - 2rem)/2); height: 4.12rem; margin-bottom: 2rem; text-align: center; border: .05rem solid #666; border-radius: .5rem; background-color: #fff; }
+.receivingAddress .content .noAddress .btn-box .u-btn { background-color: #f5f5f5; }
+.receivingAddress .content .btn-box .btn-left { margin-right: 2rem; }
+.receivingAddress .content .btn-box .btn-right { color: #e93b3d; border-color: #e93b3d; }
+.noAddress .noAddress-ct { text-align: center; }
+.noAddress .img-wrap { width: 45%; height: 45%; margin: 0 auto; padding-top: 20%; }
+.noAddress .img-wrap img { width: 100%; }
+.noAddress .text { font-size: 1.6rem; margin-top: 1.5rem; color: #666; }
+
+/* 添加收货地址 */
+.addAddress { min-height: 100vh; background-color: #f5f5f5; }
+.addAddress .mint-popup.mint-popup-bottom { width: 100%; }
+.addAddress .btn-ok { height: 3rem; padding-right: 1rem; text-align: right; }
+.addAddress .btn-ok span { font-size: 1.2rem; line-height: 3rem; padding: .2rem .5rem; color: #fff; border: 1px solid #d4282d; border-radius: .3rem; background-color: #d4282d; }
+.addAddress .picker-slot { font-size: 1.5rem; }
+.addAddress { background-color: #f5f5f5; }
+.addAddress .content { padding-top: 1px; background-color: #fff; }
+.addAddress .content .inp-item,
+.addAddress .radio-box { width: calc(100% - 2rem); min-height: 4rem; margin-left: 2rem; border-bottom: 1px solid #e5e5e5; }
+.addAddress .content .inp-item input,
+.addAddress .content .inp-item .disabled-address { font-size: 1.3rem; line-height: 4rem; width: 100%; border: 0; display: inline-block; height: 4rem; }
+.addAddress .content .inp-item .disabled-address { color: initial; }
+.addAddress .content .inp-item .disabled-address.active { color: #999; }
+.addAddress .radio-box { font-size: 1.4rem; line-height: 3.8rem; width: 100%; min-height: 3.8rem; margin-left: 0; text-align: center; color: #444; background-color: #fbfbfb; }
+.addAddress .radio-box i { margin-right: 1rem; color: #444; }
+.addAddress .radio-box i.active { color: #d4282d; }
+.addAddress .btn-box { position: fixed; right: 0; bottom: 0; left: 0;padding-bottom: constant(safe-area-inset-bottom); }
+.addAddress .btn-box .u-btn { font-size: 1.4rem; line-height: 4.16rem; display: inline-block; float: left; width: 50%; height: 4.16rem; text-align: center; background-color: #fff; }
+.addAddress .btn-box .btn-right { color: #fff; background-color: #d4282d; }

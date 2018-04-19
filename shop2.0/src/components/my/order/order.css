@@ -1,0 +1,199 @@
+.mint-popup { width: 28rem; height: 20.6rem; text-align: center; border-radius: 0.5rem; padding: 2.0rem; }
+.close-pop { font-size: 2.4rem; text-align: right; color: #333; }
+.pop h2 { color: #333; font-size: 1.6rem; margin-bottom: 1.5rem; }
+.pop h3 { color: #999; font-size: 1.4rem; margin-bottom: 2.8rem; }
+.pop p { text-align: center; color: #305694; font-size: 1.3rem; margin-top: 4.1rem; }
+input.input-check { appearance: grey; -webkit-appearance: grey !important; }
+.more { text-align: center; line-height: 2.0rem; font-size: 1.4rem; color: #666; padding: 1rem 0; }
+#orderAppraise input[type='file'] { display: none; }
+/* 订单列表 */
+#orderList { background: #f4f4f4; }
+#orderList .mint-navbar { width: 100%; }
+#orderList .mint-navbar .mint-tab-item { padding: 1.7rem 0 1rem; font-size: 1.28875rem; }
+#orderList .mint-navbar .mint-tab-item .mint-tab-item-label { color: #333; font-size: 1.275rem; }
+#orderList .mint-navbar .mint-tab-item.is-selected { border-color: #ff4242; margin-bottom: 0px; }
+#orderList .mint-navbar .mint-tab-item.is-selected .mint-tab-item-label { color: #ff4242; }
+#orderList .order-item { width: 100%; margin-top: 1rem; background-color: white; box-sizing: border-box; padding: 0 1rem; }
+#orderList .order-item > * { box-sizing: border-box; }
+#orderList .order-item .order-title { width: 100%; height: 3.75rem; line-height: 3.75rem; border-bottom: 1px double #e5e5e5; }
+#orderList .order-item .order-title .shop { display: inline-block; }
+#orderList .order-item .order-title .shop i.icon { color: #b5b4b7; font-size: 2rem; margin-right: .25rem; vertical-align: middle; margin-left: .25rem; }
+#orderList .order-item .order-title .shop span.name { color: #b5b4b7; color: #333333; font-size: 1.19rem; vertical-align: middle; }
+#orderList .order-item .order-title .order-state { float: right; display: inline-block; }
+#orderList .order-item .order-title .order-state span { font-size: 1.19rem; color: #999999; font-weight: 500; letter-spacing: .05rem; }
+#orderList .order-item .order-title .order-state span.active { color: #ff4242; }
+#orderList .order-item .order-info { width: 100%; border-bottom: 1px dotted #dbdbdb; padding: 1rem 0; }
+#orderList .order-item .order-info:after { content: ''; clear: both; display: block; }
+#orderList .order-item .order-info .order-cover { display: inline-block; width: 6.65rem; height: 6.65rem; overflow: hidden; float: left; }
+#orderList .order-item .order-info .order-cover img { width: 100%; min-height: 100%; height: auto; }
+#orderList .order-item .order-info .order-describe { display: inline-block; width: calc(100% - 14rem); vertical-align: top; padding: 0 .5rem; box-sizing: border-box; float: left; }
+#orderList .order-item .order-info .order-describe .order-name { color: #333333; font-size: 1.2rem; line-height: 1.4rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+#orderList .order-item .order-info .order-describe .order-desc { font-size: 1rem; color: #999999; margin-top: .5rem; }
+#orderList .order-item .order-info .order-describe .order-help { margin-top: .75rem; min-height: 1.67rem; }
+#orderList .order-item .order-info .order-describe .order-help span.key { vertical-align: middle; font-size: .9rem; color: #ff9000; border: .1px double #ff9000; padding: .35rem .25rem .15rem .25rem; margin-right: .75rem; display: inline-block; margin-bottom: .5rem; border-radius: .25rem; }
+#orderList .order-item .order-info .order-price-box { display: inline-block; width: 7rem; vertical-align: top; border-bottom: border-box; float: left; }
+#orderList .order-item .order-info .order-price-box .order-price { width: 100%; text-align: right; color: #333333; font-size: 1.2rem; line-height: 1.4rem; }
+#orderList .order-item .order-info .order-price-box .order-price-old { text-decoration: line-through; width: 100%; text-align: right; color: #999999; font-size: 1.2rem; line-height: 1.4rem; }
+#orderList .order-item .order-info .order-price-box .order-number { width: 100%; text-align: right; color: #999999; font-size: 1rem; line-height: 2.4rem; }
+#orderList .order-item .order-info .order-system { float: left; height: auto; width: 100%; background: transparent; padding: 0; }
+#orderList .order-item .order-desc-box { width: 100%; display: block; text-align: right; margin-bottom: .3rem; margin-top: 1.3rem; }
+#orderList .order-item .order-desc-box span { display: inline-block; vertical-align: middle; }
+#orderList .order-item .order-desc-box span.title { font-size: 1rem; color: #999; }
+#orderList .order-item .order-desc-box span.val { font-size: 1rem; color: #333; }
+#orderList .order-item .order-desc-box span.strong { font-size: 1.2rem; color: #333; }
+#orderList .order-item .order-system { display: block; height: 5rem; padding: 1.25rem 0; text-align: right; }
+#orderList .order-item .order-system a.order.button { font-size: 1.19rem; font-weight: 300; display: inline-block; height: 2.5rem; line-height: 2.5rem; border: .7px double #333; color: #333; padding: 0 1rem; border-radius: .25rem; }
+#orderList .order-item .order-system a.order.button.active { color: #ff4242; border-color: #ff4242; }
+#orderList .order-item .order-system a.order.button~a.order.button { margin-left: .75rem; }
+#orderList .error-box { position: fixed; top: 70%; right: 8rem; left: 8rem; height: 36rem; margin-top: -22rem; text-align: center; }
+#orderList .error-box .error-icon { margin-bottom: 1rem; margin-left: 1rem; }
+#orderList .error-box .error-icon img { width: 90%; height: auto; min-height: 90%; }
+#orderList .error-box .error-help { font-size: 1.35rem; line-height: 1.8rem; margin-bottom: 2rem; text-align: center; color: #666; }
+#orderList .error-box .goshopping .goBtn { font-size: 1.2875rem; line-height: 3.75rem; display: block; box-sizing: border-box; width: 9.5rem; height: 3.75rem; margin: 0 auto; text-align: center; color: #333; border: 1px solid #999; border-radius: .25rem; }
+
+
+/* 订单详情 */
+#orderInfo { background-color: #f4f4f4; }
+#orderInfo .order-state-box { width: 100%; height: 8.75rem; overflow: hidden; background-image: -webkit-linear-gradient(left, #ff5d42, #ff4242); background-image: -o-linear-gradient(left, #ff5d42, #ff4242); background-image: linear-gradient(to right, #ff5d42, #ff4242); }
+#orderInfo .order-state-box .state-help { margin-top: 2.85rem; margin-left: 3.5rem; color: white; font-size: 1.4rem; display: inline-block; }
+#orderInfo .order-state-box .state-help-text { margin-top: .75rem; margin-left: 3.5rem; color: white; font-size: 1.2rem; display: block; }
+#orderInfo .order-state-box .icon.state { display: inline-block; float: right; width: 6.75rem; height: 6.75rem; overflow: hidden; margin-right: 4.5rem; margin-top: 1rem; }
+#orderInfo .order-state-box .icon.state img { width: 100%; min-height: 100%; height: auto; }
+#orderInfo .order-box { background: white; margin-bottom: 1rem; box-sizing: border-box; padding: 0 1rem; }
+#orderInfo .order-box > * { box-sizing: border-box; }
+#orderInfo .order-box .order-received { min-height: 6rem; border-bottom: 1px double #e5e5e5; position: relative; }
+#orderInfo .order-box .order-received i.icon.right { position: absolute; right: 0; top: 2rem; }
+#orderInfo .order-box .order-received .cover,
+#orderInfo .order-box .order-received .description { display: inline-block; vertical-align: top; }
+#orderInfo .order-box .order-received .cover { display: inline-block; width: 2.5rem; height: 6rem; line-height: 6rem; text-align: right; -webkit-transform: rotateY(180deg); -ms-transform: rotateY(180deg); -o-transform: rotateY(180deg); transform: rotateY(180deg); }
+#orderInfo .order-box .order-received .cover i { font-size: 2rem; }
+#orderInfo .order-box .order-received .cover i,
+#orderInfo .order-box .order-received .description .state { color: #00b94a; font-size: 1.2rem; line-height: 1.4rem; margin: 1rem auto .5rem; }
+#orderInfo .order-box .order-received .description .state.on { margin-top: 1.4rem; }
+#orderInfo .order-box .order-received .description .state.noting { line-height: 4rem; }
+#orderInfo .order-box .order-received .description { width: calc(100% - 2.8rem); }
+#orderInfo .order-box .order-received .description .createTime { font-size: 1.2rem; color: #999999; }
+#orderInfo .order-box .user-address-box { width: 100%; min-height: 6.85rem; height: auto; }
+#orderInfo .order-box .user-address-box .map,
+#orderInfo .order-box .user-address-box .desc,
+#orderInfo .order-box .user-address-box .userName,
+#orderInfo .order-box .user-address-box .moblie { display: inline-block; }
+#orderInfo .order-box .user-address-box .map { width: 2.5rem; height: 100%; line-height: 6.85rem; vertical-align: top; }
+#orderInfo .order-box .user-address-box .map i.icon { font-size: 2rem; color: #666; }
+#orderInfo .order-box .user-address-box .desc { width: calc(100% - 2.8rem); padding-top: 1rem; }
+#orderInfo .order-box .user-address-box .userName,
+#orderInfo .order-box .user-address-box .moblie { height: 3rem; line-height: 3rem; color: #666; font-size: 1.2rem; }
+#orderInfo .order-box .user-address-box .moblie { float: right; }
+#orderInfo .order-box .user-address-box .address { height: auto; line-height: 1.6rem; color: #666; font-size: 1.2rem; }
+#orderInfo .order-box .order-title { width: 100%; height: 3.75rem; line-height: 3.75rem; border-bottom: 1px double #e5e5e5; }
+#orderInfo .order-box .order-title .shop { display: inline-block; }
+#orderInfo .order-box .order-title .shop i.icon { color: #b5b4b7; font-size: 2rem; margin-right: .5rem; vertical-align: middle; }
+#orderInfo .order-box .order-title .shop span.name { vertical-align: middle; color: #b5b4b7; color: #333333; font-size: 1.19rem; }
+#orderInfo .order-box .order-info { min-height: 9.85rem; width: 100%; border-bottom: 1px dotted #dbdbdb; padding: 1rem 0; }
+#orderInfo .order-box .order-info .order-cover { display: inline-block; width: 6.65rem; height: 6.65rem; overflow: hidden; box-sizing: border-box; float: left; }
+#orderInfo .order-box .order-info .order-cover img { width: 100%; min-height: 100%; height: auto; }
+#orderInfo .order-box .order-info .order-describe { display: inline-block; width: calc(100% - 13rem); vertical-align: top; padding: 0 .5rem; box-sizing: border-box; float: left; }
+#orderInfo .order-box .order-info .order-describe .order-name { color: #333333; font-size: 1.2rem; line-height: 1.4rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+#orderInfo .order-box .order-info .order-describe .order-desc { font-size: 1rem; color: #999999; margin-top: .5rem; }
+#orderInfo .order-box .order-info .order-describe .order-help { margin-top: .75rem; min-height: 1.67rem; }
+#orderInfo .order-box .order-info .order-describe .order-help span.key { vertical-align: middle; font-size: .9rem; color: #ff9000; border: .1px double #ff9000; padding: .35rem .25rem .15rem .25rem; margin-right: .75rem; display: inline-block; margin-bottom: .5rem; border-radius: .25rem; }
+#orderInfo .order-box .order-info .order-price-box { display: inline-block; width: 6.35rem; vertical-align: top; box-sizing: border-box; float: left; }
+#orderInfo .order-box .order-info .order-price-box .order-price { width: 100%; text-align: right; color: #333333; font-size: 1.2rem; line-height: 1.4rem; }
+#orderInfo .order-box .order-info .order-price-box .order-price-old { text-decoration: line-through; width: 100%; text-align: right; color: #999999; font-size: 1.2rem; line-height: 1.4rem; }
+#orderInfo .order-box .order-info .order-price-box .order-number { width: 100%; text-align: right; color: #999999; font-size: 1rem; line-height: 2.4rem; }
+#orderInfo .order-box .order-item { width: 100%; }
+#orderInfo .order-box .order-item .item { width: 100%; }
+#orderInfo .order-box .order-item .item:first-child { margin-top: .7rem; }
+#orderInfo .order-box .order-item .line { width: 100%; height: 1px; border-bottom: 1px dotted #dbdbdb; }
+#orderInfo .order-box .order-item .item:after { content: ''; clear: both; display: block; }
+#orderInfo .order-box .order-item .item span { font-size: 1.1rem; display: inline-block; line-height: 2rem; }
+#orderInfo .order-box .order-item .item span.title { color: #999999; width: calc(100% - 12.5rem); float: left; }
+#orderInfo .order-box .order-item .item span.val { color: #999999; width: 12rem; text-align: right; float: right; }
+#orderInfo .order-box .order-item .item span.strong { color: #333333; padding-bottom: .7rem; }
+#orderInfo .order-box .order-item .item span.strong.val { font-size: 1.2rem; font-weight: 500; }
+#orderInfo .order-box .order-item .item span.active { color: #ff4242; padding: .75rem 0; }
+#orderInfo .order-box .order-item .item span.active.val { font-size: 1.2rem; font-weight: 500; }
+#orderInfo .order-box .order-Give { width: 100%; }
+#orderInfo .order-box .order-Give .content { height: 4rem; line-height: 4rem; border-bottom: .1px double #ddd; }
+#orderInfo .order-box .order-Give .content label.key { height: 1rem; line-height: 1.2rem; vertical-align: middle; font-size: .9rem; color: #ff9000; border: .1px double #ff9000; padding: .35rem .25rem .25rem .35rem; margin-right: .75rem; display: inline-block; border-radius: .25rem; }
+#orderInfo .order-box .order-Give .content strong { color: #333333; font-size: 1.2rem; letter-spacing: .05rem; vertical-align: middle; }
+#orderInfo .order-box .order-Give .content strong span.key { color: #ff4242; }
+#orderInfo .order-box .order-Give ul.description { border-bottom: .1px double #ddd; padding: .5rem 0; }
+#orderInfo .order-box .order-Give ul.description:after { content: ''; clear: both; display: block; }
+#orderInfo .order-box .order-Give ul.description li { float: left; width: 100%; height: 2rem; line-height: 2rem; }
+#orderInfo .order-box .order-Give ul.description li label.item { display: inline-block; color: #999999; font-size: 1.1rem; }
+#orderInfo .order-box .order-Give ul.description li span.val { color: #999999; font-size: 1.1rem; }
+#orderInfo .order-box .order-system { display: block; padding: 1.25rem 0; text-align: right; }
+#orderInfo .order-box .order-info .order-system { padding-bottom: 0; float: left; width: 100%; }
+#orderInfo .order-box .order-info:after { content: ''; clear: both; display: block; }
+#orderInfo .order-box .order-system a.order.button { font-weight: 300; font-size: 1.19rem; display: inline-block; height: 2.5rem; line-height: 2.5rem; border: .1px double #333; color: #333; padding: 0 1rem; border-radius: .25rem; }
+#orderInfo .order-box .order-system a.order.button.active { color: #ff4242; border-color: #ff4242; }
+#orderInfo .order-box .order-system a.order.button~a.order.button { margin-left: .75rem; }
+
+/* 订单评价 */
+#orderAppraise .appraise-box #appraiseText { position: absolute; z-index: 2; left: 1rem; top: 1rem; right: 1rem; bottom: 8rem; width: 100%; }
+#orderAppraise .appraise-box #appraiseText.on { color: #333; }
+#orderAppraise .appraise-box .edit-div-box { border: 1px solid #E4E4E4; border-radius: .5rem; }
+#orderAppraise .appraise-box .edit-div { border: none; width: 100%; height: 9.5rem; display: block; padding: .5rem 1rem; overflow-y: auto; color: #b2b2b2; resize: none; font-size: 1.2rem; }
+#orderAppraise .appraise-box .edit-div:focus { color: #333; }
+#orderAppraise { background-color: #f4f4f4; padding-bottom: 7rem; position: relative; }
+#orderAppraise * { box-sizing: border-box; }
+#orderAppraise .ordersInfoList { margin-bottom: 1rem; }
+#orderAppraise .order-box { background-color: white; height: 4.5rem; padding: 1rem; border-bottom: 1px solid #e5e5e5; }
+#orderAppraise .order-box:after { content: ''; clear: both; display: block; }
+#orderAppraise .order-box .cover { width: 2.5rem; height: 2.5rem; overflow: hidden; border-radius: .25rem; display: inline-block; }
+#orderAppraise .order-box .cover img { width: 100%; min-height: 100%; height: auto; }
+#orderAppraise .order-box .order-name { font-size: 1.2875rem; display: inline-block; width: calc(100% - 2.6rem); float: right; line-height: 1.35rem; padding-left: 1rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+#orderAppraise .appraise-box { background-color: white; height: 20.5rem; width: 100%; position: relative; padding: 1rem; }
+#orderAppraise .appraise-box .number-box { position: absolute; z-index: 2; right: 2rem; bottom: 11rem; background-color: transparent; font-size: 1rem; color: #999999; }
+#orderAppraise .appraise-box .number-box.active { color: #ff4242; }
+#orderAppraise .appraise-box .buttom-box { position: absolute; z-index: 2; left: 1rem; bottom: 1rem; width: auto; height: auto; border-radius: .5rem; }
+#orderAppraise .appraise-box .buttom-box .help-text { width: 100%; display: block; margin-bottom: 10px; font-size: 1.1rem; }
+#orderAppraise .appraise-box .buttom-box .image { width: auto; height: 6rem; display: inline-block; vertical-align: top; }
+#orderAppraise .appraise-box .buttom-box .image .imageUrl { display: inline-block; width: 6rem; height: 6rem; margin-right: 1rem; position: relative; }
+#orderAppraise .appraise-box .buttom-box .image .imageUrl .delImage { position: absolute; width: 1.5rem; height: 1.5rem; line-height: 1.25rem; font-size: 2rem; font-weight: 500; vertical-align: middle; right: -.35rem; top: -.35rem; background-color: #ff4242; color: white; border-radius: 50%; text-align: center; }
+#orderAppraise .appraise-box .buttom-box .image .imageUrl .showimg { width: 100%; height: 100%; overflow: hidden; }
+#orderAppraise .appraise-box .buttom-box .image .imageUrl img { max-width: 100%; width: auto; min-height: 100%; height: auto; border-radius: .5rem; }
+#orderAppraise .appraise-box .buttom-box .avatar-uploader { border: 1px dotted #ececec; border-radius: .5rem; width: 6rem; display: inline-block; vertical-align: top; height: 6rem; overflow: hidden; position: relative; }
+#orderAppraise .appraise-box .buttom-box .el-upload { width: 6rem; height: 6rem; display: block; text-align: center; position: absolute; top: 0; }
+#orderAppraise .appraise-box .buttom-box .el-upload i.icon { margin: .5rem auto .25rem; color: #999999; display: block; font-size: 3rem; height: 3rem; }
+#orderAppraise .appraise-box .buttom-box .el-upload input.el-upload__input { display: none; }
+#orderAppraise .appraise-box .buttom-box .el-upload span { text-align: center; width: 100%; display: block; color: #999999; font-size: 1.1rem; line-height: normal; }
+#orderAppraise .stars-box { margin-top: .1rem; height: 4.5rem; line-height: 2.5rem; padding: 1rem; background-color: white; }
+#orderAppraise .stars-box label { font-size: 1.275rem; color: #333333; display: inline-block; letter-spacing: .1rem; }
+#orderAppraise .stars-box .star { display: inline-block; vertical-align: top; height: 2.5rem; line-height: 2.5rem; }
+#orderAppraise .stars-box .star li { float: left; display: inline-block; vertical-align: top; margin-left: 1rem; cursor: pointer; }
+#orderAppraise .stars-box .star li i.icon { font-size: 2.4rem; color: #bebebe; -webkit-transition: all .3s; -o-transition: all .3s; transition: all .3s; }
+#orderAppraise .stars-box .star li.active i.icon { color: #ff4242; }
+#orderAppraise .footer-box { position: absolute; margin-left: 1.5rem; margin-right: 1.5rem; bottom: 0; left: 0; right: 0; }
+#orderAppraise .footer-box a.action { position: absolute; bottom: 1rem; width: 100%; height: 4rem; line-height: 4rem; text-align: center; color: white; background-color: #ff4242; border-radius: .5rem; display: block; font-size: 1.5625rem; }
+
+/* 评价成功 */
+#orderAppraiseSuccess { background-color: white; }
+#orderAppraiseSuccess * { box-sizing: border-box; }
+#orderAppraiseSuccess .success-box { width: 100%; height: 11.25rem; overflow: hidden; background-image: -webkit-linear-gradient(left, #ff5d42, #ff4242); background-image: -o-linear-gradient(left, #ff5d42, #ff4242); background-image: linear-gradient(to right, #ff5d42, #ff4242); }
+#orderAppraiseSuccess .success-box .thanks { margin-top: 2rem; }
+#orderAppraiseSuccess .success-box .thanks,
+#orderAppraiseSuccess .success-box .help-text { text-align: center; color: white; font-size: 1.2875rem; line-height: 2rem; }
+#orderAppraiseSuccess .success-box .help-text i.icon { font-size: 2.4rem; vertical-align: top; }
+#orderAppraiseSuccess .success-box { text-align: center; }
+#orderAppraiseSuccess .success-box .callback-box { margin-top: 1rem; }
+#orderAppraiseSuccess .success-box .callback { font-size: 1.2rem; width: 8.5rem; height: 2.5rem; line-height: 2.4rem; text-align: center; color: #fff600; border: .7px double #fff600; border-radius: .5rem; display: inline-block; }
+#orderAppraiseSuccess .success-box .callback~.callback { margin-left: 2.5rem; }
+#orderAppraiseSuccess .success-help { background-color: #f4f4f4; text-align: center; height: 6rem; padding: 2rem 0; box-sizing: border-box; }
+#orderAppraiseSuccess .success-help i.icon { font-size: 2rem; height: 2rem; line-height: 2rem; color: #00b94a; margin-right: .5rem; vertical-align: top; }
+#orderAppraiseSuccess .success-help span { color: #333333; font-size: 1.65rem; height: 2rem; line-height: 2rem; }
+#orderAppraiseSuccess .Recommended-goods { background-color: white; width: 100%; height: auto; }
+#orderAppraiseSuccess .Recommended-goods .title-box { height: 5.8rem; line-height: 5.8rem; text-align: center; color: #999999; font-size: 1.25rem; position: relative; }
+#orderAppraiseSuccess .Recommended-goods .title-box:after,
+#orderAppraiseSuccess .Recommended-goods .title-box:before { position: absolute; content: ''; width: calc(50% - 8rem); height: 1px; background-color: #e6e6e6; top: 50%; }
+#orderAppraiseSuccess .Recommended-goods .title-box:after { left: 0; }
+#orderAppraiseSuccess .Recommended-goods .title-box:before { right: 0; }
+#orderAppraiseSuccess .Recommended-goods .goodLists { width: 100%; padding: 0 1rem; }
+#orderAppraiseSuccess .Recommended-goods .goodLists li { min-height: 9rem; height: auto; border-bottom: 1px dashed #dbdbdb; padding: 1.25rem 0; }
+#orderAppraiseSuccess .Recommended-goods .goodLists li:after { content: ''; display: block; clear: both; }
+#orderAppraiseSuccess .Recommended-goods .goodLists li .cover { width: 6.5rem; height: 6.5rem; border-radius: .5rem; overflow: hidden; background-color: #e6e6e6; display: inline-block; float: left; }
+#orderAppraiseSuccess .Recommended-goods .goodLists li .cover img { width: 100%; min-height: 100%; height: auto; }
+#orderAppraiseSuccess .Recommended-goods .goodLists li .desc { width: calc(100% - 6.5rem); display: inline-block; float: left; height: 6.5rem; position: relative; }
+#orderAppraiseSuccess .Recommended-goods .goodLists li .desc label { padding-left: 1rem; color: #333333; font-size: 1.4rem; line-height: 1.8rem; width: calc(100% - 7rem); overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+#orderAppraiseSuccess .Recommended-goods .goodLists li .desc a.appraise { position: absolute; right: 0; bottom: 0; height: 2.5rem; width: 6.75rem; text-align: center; line-height: 2.5rem; border: .7px double #ff4242; color: #ff4242; font-size: 1.2rem; border-radius: .25rem; }

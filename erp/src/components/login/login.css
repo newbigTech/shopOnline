@@ -1,0 +1,85 @@
+.login {
+	width: 100%;
+	height: 100%;
+	padding: 165px 167px 163px 167px;
+	background-image: url(../../../static/img/bg-login.png);
+}
+
+.logo {
+	padding-top: 119px;
+	text-align: center;
+}
+
+.logo img {
+	width: 583px;
+	height: 48px;
+}
+
+.login .content {
+	height: 653px;
+	background-image: url(../../../static/img/bg-login-con.png);
+}
+.login-form {
+	margin-top: 140px;
+}
+.login-form .form-item {
+	width: 340px;
+	margin: 0 auto 50px auto;
+}
+.form-item > i.iconfont {
+	font-size: 26px;
+	vertical-align: middle;
+	margin-top: -4px;
+}
+.form-item .form-input {
+	width: calc(100% - 35px);
+	height: 26px;
+	line-height: 26px;
+	background: transparent;
+	border-bottom: 1px solid #ccc;
+	font-size: 18px;
+	outline: none;
+}
+.form-item.active .form-input,
+.form-item.active i,
+.form-item:hover .form-input,
+.form-item:hover i {
+	color: #1299ea;
+	border-bottom-color: #1299ea;
+}
+ input::-webkit-input-placeholder,
+ input::-moz-placeholder,
+ input:-moz-placeholder,
+ input:-ms-input-placeholder,
+ input[placeholder], [placeholder], *[placeholder] {
+    color: #1299ea !important;
+}
+.item-login {
+	width: 340px;
+	height: 53px;
+	margin: 0 auto 50px auto;
+	text-align: center;
+}
+.item-login button:hover {
+	width: 245px;
+	height: 55px;
+	transition: 0.1s all linear;
+	margin-top: -1px;
+}
+.btn-login {
+	width: 240px;
+	height: 53px;
+	line-height: 53px;
+	border-radius: 26px;
+	background: #1299ea;
+	color: #fefefe;
+	font-size: 24px;
+	border: none;
+	outline: none;
+}
+.login-btm {
+	margin-top: 73px;
+	text-align: center;
+	font-size: 18px;
+	color: #f1f0f0;
+}

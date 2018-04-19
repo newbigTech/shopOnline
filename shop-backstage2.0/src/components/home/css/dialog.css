@@ -1,0 +1,29 @@
+.dialog-title {
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.dialog-con {
+	min-height: 100px;
+	margin-top: 20px;
+}
+.dialog-con .dialog-item {
+	min-height: 50px;
+	line-height: 50px;
+	margin: 10px 0;
+	font-size: 15px;
+}
+.dialog-item input {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ccc;
+	padding: 0 5px;
+}
+.dialog-item input.input-small {
+	width: 80px !important;
+}
+.dialog-btm {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

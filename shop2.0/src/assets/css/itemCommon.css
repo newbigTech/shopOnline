@@ -1,0 +1,213 @@
+@charset "utf-8";
+.div-border-box div {
+	box-sizing: border-box;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+	width: 0;
+	height: 0;
+}
+
+.u-fl {
+	float: left;
+}
+
+.u-fr {
+	float: right;
+}
+
+.ellipsis {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+/* round */
+
+.round-box {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 8rem;
+	height: 8rem;
+	border-radius: 50%;
+	background-color: #ff4542;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.2rem;
+	padding: 1.2rem;
+	color: #fff;
+	line-height: 1.5;
+	box-shadow: 0px 4px 24px 0px rgba(254, 92, 65, 0.35);
+}
+
+
+/* round end */
+
+
+/* three list 标签 */
+
+.u-three-list li {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+	width: 33.3%;
+	height: 6rem;
+	padding: 1rem 0;
+	text-align: center;
+}
+
+.u-three-list li {
+	font-size: 1.3rem;
+	color: #999;
+}
+
+.u-three-list li .name {
+	line-height: 1.5rem;
+}
+
+.u-three-list li .num {
+	line-height: 2.5rem;
+}
+
+.u-three-list li .num span {
+	font-size: 1.8rem;
+	color: #333;
+}
+
+
+/* three list 标签 end */
+
+
+/* itemCommon */
+
+
+/* 1、img and ct and time 三级包含img */
+
+.line {
+	width: 100%;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.three-box-img-item {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 5rem;
+	padding: 0.7rem 1.5rem;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.three-box-img-item .item-left {
+	float: left;
+	width: 60%;
+}
+
+.three-box-img-item .item-left .item-img,
+.three-box-img-item .item-left .item-icon-box {
+	float: left;
+	width: 3.6rem;
+	height: 3.6rem;
+}
+
+.three-box-img-item .item-left .item-icon-box .u-icon {
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	font-size: 1.3rem;
+	line-height: 2rem;
+	border-radius: 50%;
+	color: #fff;
+	margin: 0.8rem auto 0;
+	text-align: center;
+	background-color: #ffcc00;
+}
+
+.three-box-img-item .item-left .item-img img {
+	width: 100%;
+	border-radius: 0.3rem;
+}
+
+.three-box-img-item .item-left .item-ct {
+	margin-left: 4.5rem;
+	line-height: 1.8rem;
+}
+
+.three-box-img-item .item-left .item-ct .text {
+	font-size: 1.5rem;
+}
+
+.three-box-img-item .item-left .item-ct .gray-text {
+	font-size: 1.4rem;
+	color: #999;
+}
+
+.three-box-img-item .item-right {
+	float: left;
+	width: 40%;
+	text-align: right;
+	margin-top: 1.8rem;
+}
+
+.three-box-img-item .item-right .time {
+	font-size: 1.3rem;
+	line-height: 1.8rem;
+	color: #999;
+}
+
+
+/* 三级 */
+
+
+/* 二级 文字 */
+
+.text-two-item {
+	height: 4.6rem;
+	line-height: 4.6rem;
+	width: 100%;
+	padding: 0 1.3rem;
+	background-color: #fff;
+	font-size: 1.195rem;
+}
+
+.text-two-item a {
+	color: #333;
+}
+
+.text-two-item .item-left,
+.text-two-item .item-right {
+	float: left;
+	width: 50%;
+}
+
+.text-two-item .item-left {
+	text-align: left;
+}
+
+.text-two-item .item-left span {
+	color: #999;
+}
+
+.text-two-item .item-right {
+	text-align: right;
+}
+
+
+/* 二级 文字 end */
+
+
+/* itemCommon end */

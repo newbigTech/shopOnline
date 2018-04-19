@@ -1,0 +1,95 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+
+*{margin:0;padding:0;}
+html,body{font-family: "Microsoft YaHei", "微软雅黑" !important; font-size:62.5%;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,menu,nav,output,ruby,section,summary,time,mark,audio,video,input{
+	font-weight:normal;margin:0;padding:0;vertical-align:baseline;border:0;
+	font-family: "Microsoft YaHei", "微软雅黑" !important;
+}
+body {
+	padding-bottom: constant(safe-area-inset-bottom);
+}
+@supports (bottom: constant(safe-area-inset-bottom)) {
+    div {
+        padding-bottom: constant(safe-area-inset-bottom);
+    }
+}
+@media screen and (min-width:320px) and (max-width:359px){
+    html,body{font-size:58.6%!important;}
+}
+@media screen and (min-width:360px) and (max-width:374px){
+    html,body{font-size:60.3%!important;}
+}
+@media screen and (min-width:375px) and (max-width:383px){
+    html,body{font-size:62.5%!important;}
+}
+@media screen and (min-width:384px) and (max-width:399px){
+    html,body{font-size:65.0%!important;}
+}
+@media screen and (min-width:400px) and (max-width:413px){
+    html,body{font-size:68.1%!important;}
+}
+@media screen and (min-width:414px) and (max-width:431px){
+    html,body{font-size:70.8%!important;}
+}
+@media screen and (min-width:432px) and (max-width:479px){
+    html,body{font-size:74.3%!important;}
+}
+@media screen and (min-width:480px){
+    html,body{font-size:76%!important;}
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section { display: block; }
+body { line-height: 1; }
+blockquote,
+q { quotes: none; }
+blockquote:before,
+blockquote:after,
+q:before,
+q:after { content: none; }
+table { border-spacing: 0; border-collapse: collapse; }
+a { text-decoration: none; color: #7e8c8d; -webkit-backface-visibility: hidden; }
+li { list-style: none; }
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track-piece { -webkit-border-radius: 6px; background-color: rgba(0, 0, 0, .2); }
+::-webkit-scrollbar-thumb:vertical { height: 5px; -webkit-border-radius: 6px; background-color: rgba(125, 125, 125, .7); }
+::-webkit-scrollbar-thumb:horizontal { width: 5px; -webkit-border-radius: 6px; background-color: rgba(125, 125, 125, .7); }
+html,
+body { width: 100%; }
+body { -webkit-text-size-adjust: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+.mint-msgbox-content,
+.mint-msgbox-cancel { border-width: .1px; }
+.mint-msgbox-cancel,
+.mint-msgbox-confirm { font-size: 1.4rem; }
+
+/* 协议弹框 css */
+.message-model { position: fixed; left: 0; top: 0; right: 0; bottom: 0; z-index: 1000; overflow: auto; display: none; box-sizing: border-box; padding: 2rem 1rem; }
+.message-model.on { display: block; }
+.message-model .message-bg { background-color: rgba(0,0,0,.7); position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: 999; }
+.message-model .title-box,
+.message-model .content-box,
+.message-model .footer-box { background-color: white; z-index: 1010; position: absolute; left: 2rem; right: 2rem;}
+.message-model .title-box { height: 5rem; border-radius: .5rem .5rem 0 0;  }
+.message-model .title-box .icon { position: absolute; right: 1rem; top: 0rem; font-style: normal; font-size: 2rem; line-height: 1; }
+.message-model .title-box h3 { text-align: center; font-size: 1.8rem; font-weight: 500; line-height: 5rem; letter-spacing: 2px; color: #000; }
+.message-model .title-box p { padding: 0 1rem; box-sizing: border-box; width: 100%; text-align: right; font-size: 1rem; margin-top: -1.5rem; }
+.message-model .title-box p span.help-text { color: gray;font-size: 1.1rem !important; }
+.message-model .content-box { top: 7rem; bottom: 6rem; overflow-y: auto; box-sizing: border-box; padding: 1rem; font-size: 1rem; line-height: 1.8rem; text-indent: 2em;font-size: 1.3rem !important; }
+.message-model .footer-box { bottom: 1rem; height: 5rem; line-height: 6rem; text-align: center;  border-radius: 0 0 .5rem .5rem; }
+.message-model .footer-box a.btn { border-radius: .25rem; color: white; background-color: #ff4342; height: 2.4rem; line-height: 2.4rem; display: inline-block; border: 1px solid #ff4342; padding: 0 1.5rem; box-sizing: border-box; font-size: 1.2rem;
+-webkit-transform: scale(1.2, 1.2);
+-ms-transform: scale(1.2, 1.2);
+-o-transform: scale(1.2, 1.2);
+transform: scale(1.2, 1.2);}

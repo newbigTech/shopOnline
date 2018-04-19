@@ -1,0 +1,33 @@
+/* 设置基本信息 */
+#userInfo { background: rgba(244, 244, 244, 1); }
+#userInfo > .header { position: relative; }
+#userInfo > .content { position: static; }
+#userInfo > .content .header-img { display: inline-block; overflow: hidden; box-sizing: border-box; width: 4rem; height: 4rem; border: 1px solid #e5e5e5; border-radius: 50%; }
+#userInfo > .content .header-img img { width: 100%; height: 100%; }
+#userInfo > .content .mint-cell { width: 100%; min-height: 4.16rem; }
+#userInfo > .content .mint-cell span.value { font-size: 1.2rem; }
+#userInfo > .content .mint-cell-wrapper { background: none; }
+#userInfo > .content .mint-cell.header { min-height: 6.45rem; }
+#userInfo > .content ~ .content { margin-top: 1.35rem; }
+#userInfo > .content .line { display: block; width: calc(100% - 2rem); height: 1px; margin: 0 auto; background-color: #e5e5e5; }
+#userInfo.on { overflow: hidden; }
+#userInfo .modal-body { position: fixed; z-index: 1050; top: 0; right: 0; bottom: auto; left: 0; }
+#userInfo .modal-body .input-box { position: fixed; top: 0; right: 0; left: 0; overflow: hidden; width: 100%; height: 4rem; border-radius: 0; background-color: white; }
+#userInfo .modal-body .input-box a.close { font-size: 1.1rem; font-weight: 500; line-height: 1.2rem; position: absolute; top: 1.28rem; right: 1.58rem; width: 1.3rem; height: 1.3rem; text-align: center; color: white; border-radius: 50%; background-color: #b2b2b2; }
+#userInfo .modal-body .input-box a.close:before,
+#userInfo .modal-body .input-box a.close:after { position: absolute; top: calc(50% - 1px); right: 20%; display: block; width: 60%; height: 1px; content: ''; background: white; }
+#userInfo .modal-body .input-box a.close:before { -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+#userInfo .modal-body .input-box a.close:after { -webkit-transform: rotate(135deg); -ms-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
+#userInfo .modal-body .input-box input { font-size: 1.3rem; width: 100%; height: 100%; padding: 0 1rem; }
+#userInfo .modal-body .input-action { position: fixed; top: 4rem; right: 0; left: 0; padding: 1rem 1rem 3rem 1rem; }
+#userInfo .modal-body .input-action a.action { font-size: 1.5625rem; line-height: 4rem; display: block; width: 100%; height: 4rem; text-align: center; letter-spacing: .15rem; color: white; border-radius: .5rem; background-color: #ff4242; }
+#userInfo .modal-backdrop.in { position: fixed; z-index: 10; top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0, 0, 0, .5);padding-bottom: constant(safe-area-inset-bottom); }
+#userInfo .modal-backdrop.default.in { background-color: rgba(244, 244, 244, 1); }
+#userInfo input[type='file'] { display: none; }
+/* 设置密码... */
+.my-setting { background-color: #f4f4f4; }
+.my-setting a.mint-cell:after { content: ''; display: block; width: 100%; height: 1px; background-color: #e5e5e5; }
+.my-setting a.mint-cell:last-child:after { display: none; }
+.my-setting .goExitBox { width: 100%; height: 4rem; line-height: 4rem; margin-top: 1.5rem; background-color: white; text-align: center; box-sizing: border-box;  }
+.my-setting .goExitBox a.goEixt { color: rgba(255,64,64,1); font-size: 1.37rem; vertical-align: middle; }
+#userInfo .mint-popup { padding: 0; }
